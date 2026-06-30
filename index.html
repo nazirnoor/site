@@ -1,265 +1,507 @@
 
-<!DOCTYPE html>
-<html lang="en" data-theme="light">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-<title>Nazir Noori — Books, Writing & Quiet Interfaces</title>
-<meta name="description" content="Books, essays, poetry, writing, Pulse Studios, and quiet digital systems by Nazir Noori." />
-<meta name="author" content="Nazir Noori" />
-<meta name="robots" content="index,follow,max-image-preview:large" />
-<meta name="theme-color" content="#f8fafc" />
-<meta name="color-scheme" content="light dark" />
-<link rel="canonical" href="https://nazirnoor.github.io/site/" />
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20128%20128%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230f172a%22/%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%232563eb%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2310b981%22/%3E%3C/linearGradient%3E%3CradialGradient%20id%3D%22r%22%20cx%3D%22.22%22%20cy%3D%22.14%22%20r%3D%22.9%22%3E%3Cstop%20stop-color%3D%22%23fff%22%20stop-opacity%3D%22.30%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff%22%20stop-opacity%3D%220%22/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2232%22%20fill%3D%22url(%23g)%22/%3E%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2232%22%20fill%3D%22url(%23r)%22/%3E%3Cpath%20d%3D%22M29%2092V34h13.8l29.6%2035.8V34H99v58H85.2L55.5%2056.1V92H29Z%22%20fill%3D%22%23fff%22/%3E%3Ccircle%20cx%3D%2299%22%20cy%3D%2230%22%20r%3D%228%22%20fill%3D%22%2334d399%22/%3E%3C/svg%3E" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Nazir Noori — Books, Writing & Quiet Interfaces" />
-<meta property="og:description" content="Books, essays, poetry, writing, Pulse Studios, and quiet digital systems by Nazir Noori." />
-<meta property="og:url" content="https://nazirnoor.github.io/site/" />
-<meta property="og:image" content="https://nazirnoor.github.io/site/og-image.svg" />
-<meta property="og:image:alt" content="Nazir Noori — Books, Writing, Pulse Studios, and Quiet Interfaces" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://nazirnoor.github.io/site/og-image.svg" />
-<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-<script>document.documentElement.classList.add('js');setTimeout(()=>{if(!getComputedStyle(document.documentElement).getPropertyValue('--fa-font-solid'))document.documentElement.classList.add('no-fa')},1400)</script>
-<style>
-:root{--font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Roboto,Arial,sans-serif;--display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Segoe UI",Roboto,Arial,sans-serif;--mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;--max:1120px;--pad:clamp(16px,4vw,36px);--ease:cubic-bezier(.16,1,.3,1);--ring:0 0 0 4px color-mix(in oklab,var(--accent),transparent 78%)}
-[data-theme=light]{--bg:#f8fafc;--bg2:#fff;--card:rgba(255,255,255,.78);--card2:rgba(255,255,255,.98);--text:#0f172a;--muted:#64748b;--faint:#94a3b8;--line:rgba(15,23,42,.09);--line2:rgba(15,23,42,.16);--accent:#2563eb;--green:#10b981;--gold:#b7791f;--shadow:rgba(15,23,42,.1);--nav:rgba(248,250,252,.78)}
-[data-theme=dark]{--bg:#05070a;--bg2:#0b0f16;--card:rgba(13,18,27,.86);--card2:rgba(20,27,39,.96);--text:#f6f7f9;--muted:#a6afba;--faint:#778290;--line:rgba(255,255,255,.115);--line2:rgba(255,255,255,.22);--accent:#7dd3fc;--green:#34d399;--gold:#f0c36a;--shadow:rgba(0,0,0,.48);--nav:rgba(5,7,10,.82)}
-*{box-sizing:border-box;margin:0;padding:0;min-width:0}html{scroll-behavior:smooth;scroll-padding-top:94px;background:var(--bg)}body{font-family:var(--font);color:var(--text);background:radial-gradient(circle at 12% -6%,color-mix(in oklab,var(--accent),transparent 88%),transparent 28%),radial-gradient(circle at 92% 0%,color-mix(in oklab,var(--green),transparent 90%),transparent 24%),linear-gradient(180deg,var(--bg),var(--bg2) 44%,var(--bg));line-height:1.65;letter-spacing:-.014em;opacity:0;overflow-x:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}body.loaded{opacity:1;transition:.35s var(--ease)}body:before{content:"";position:fixed;inset:-25%;z-index:-2;pointer-events:none;opacity:.42;filter:blur(10px);background:radial-gradient(circle at var(--mx,22%) var(--my,18%),color-mix(in oklab,var(--accent),transparent 88%),transparent 20%)}body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.03;background-image:linear-gradient(var(--text) 1px,transparent 1px),linear-gradient(90deg,var(--text) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,black,transparent 76%)}a{color:inherit;text-decoration:none}button,input{font:inherit;color:inherit}button{border:0;background:none;cursor:pointer}:focus-visible{outline:0;box-shadow:var(--ring)!important}::selection{background:color-mix(in oklab,var(--accent),transparent 72%)}.wrap{width:min(92%,var(--max));margin:auto;padding-inline:var(--pad)}.skip{position:fixed;left:16px;top:12px;z-index:20000;transform:translateY(-140%);padding:10px 14px;border-radius:999px;background:var(--text);color:var(--bg);font-weight:850;transition:.2s var(--ease)}.skip:focus{transform:translateY(0)}.progress-wrap{position:fixed;top:0;left:0;width:100%;height:2px;z-index:10000}.progress{height:100%;transform:scaleX(0);transform-origin:left;background:linear-gradient(90deg,var(--accent),var(--green),var(--gold));box-shadow:0 0 24px color-mix(in oklab,var(--accent),transparent 45%)}
-header{position:fixed;inset:0 0 auto;z-index:999;transition:.28s var(--ease)}header.scrolled{background:var(--nav);border-bottom:1px solid var(--line);backdrop-filter:blur(18px) saturate(1.25)}nav.topnav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{display:flex;flex-direction:column;font-weight:950;line-height:1.02;letter-spacing:-.04em;white-space:nowrap}.logo-sub-lines{display:grid;gap:1px;margin-top:3px;color:var(--muted);font:750 .49rem var(--mono);letter-spacing:.18em;text-transform:uppercase}.links{display:flex;gap:7px;list-style:none;padding:6px;border:1px solid var(--line);border-radius:999px;background:color-mix(in oklab,var(--card),transparent 20%);backdrop-filter:blur(14px)}.links a{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:999px;color:var(--muted);font-size:.81rem;font-weight:780;transition:.2s var(--ease)}.links a:hover,.links a.active{color:var(--text);background:linear-gradient(135deg,color-mix(in oklab,var(--accent),transparent 86%),color-mix(in oklab,var(--green),transparent 90%));transform:translateY(-1px)}.nav-actions{display:flex;gap:10px;align-items:center}.icon-btn,.quiet-toggle{position:relative;overflow:hidden;height:40px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(180deg,var(--card2),var(--card));transition:.22s var(--ease);box-shadow:0 18px 48px var(--shadow),inset 0 1px 0 rgba(255,255,255,.18);backdrop-filter:blur(12px)}.icon-btn{width:40px;display:grid;place-items:center}.quiet-toggle{display:flex;align-items:center;gap:8px;padding:0 11px}.icon-btn:hover,.quiet-toggle:hover{transform:translateY(-2px)}.quiet-dot{width:9px;height:9px;border-radius:999px;background:var(--muted);box-shadow:0 0 0 5px color-mix(in oklab,var(--muted),transparent 90%)}body.quiet .quiet-dot{background:var(--green)}.quiet-label{font:820 .68rem var(--mono);letter-spacing:.045em;text-transform:uppercase}
-.section-map{position:fixed;left:14px;top:50%;transform:translateY(-50%);z-index:850;display:grid;gap:9px}.section-map a{width:8px;height:8px;border-radius:99px;background:var(--faint);opacity:.52;transition:.22s var(--ease)}.section-map a.active{height:24px;background:linear-gradient(var(--accent),var(--green));opacity:1;box-shadow:0 0 18px color-mix(in oklab,var(--accent),transparent 45%)}.bottom-nav{position:fixed;left:50%;bottom:calc(10px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:950;width:min(94vw,430px);display:none;grid-template-columns:repeat(4,1fr);gap:4px;padding:6px;border:1px solid var(--line);border-radius:24px;background:var(--nav);backdrop-filter:blur(18px) saturate(1.2);box-shadow:0 20px 60px var(--shadow)}.bottom-nav a{display:grid;place-items:center;gap:2px;min-height:48px;border-radius:18px;color:var(--muted);font-size:.67rem;font-weight:820}.bottom-nav a.active,.bottom-nav a:hover{color:var(--text);background:var(--card2)}
-.hero{min-height:100svh;display:grid;align-items:center;padding:120px 0 92px;border-bottom:1px solid var(--line)}.kicker{display:inline-flex;gap:9px;align-items:center;margin-bottom:22px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);backdrop-filter:blur(12px);color:var(--muted);font:760 .72rem var(--mono);text-transform:uppercase;letter-spacing:.05em}.live-dot{width:7px;height:7px;border-radius:999px;background:var(--green);box-shadow:0 0 0 5px color-mix(in oklab,var(--green),transparent 84%);animation:pulse 2.5s infinite alternate}h1{max-width:950px;margin-bottom:24px;font-family:var(--display);font-size:clamp(3rem,8vw,7.6rem);font-weight:950;line-height:.9;letter-spacing:-.078em;background:linear-gradient(135deg,var(--text) 13%,color-mix(in oklab,var(--accent),var(--text) 20%) 58%,var(--green) 106%);background-size:160%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradientShift 10s ease-in-out infinite alternate}.subtitle{max-width:760px;margin-bottom:16px;font-size:clamp(1.12rem,1.2vw + .82rem,1.45rem);line-height:1.45;font-weight:680;color:color-mix(in oklab,var(--text),var(--muted) 28%)}.bio,.section-note{max-width:74ch;color:var(--muted)}.inline{background-image:linear-gradient(90deg,var(--accent),var(--green));background-size:100% 1px;background-position:0 100%;background-repeat:no-repeat;transition:.22s var(--ease)}.inline:hover{background-size:100% 9px;color:var(--text)}.proof{margin:24px 0;color:var(--muted);font:760 .72rem var(--mono);letter-spacing:.05em;text-transform:uppercase}.now-card{max-width:760px;margin:0 0 24px;padding:12px 14px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(135deg,color-mix(in oklab,var(--green),transparent 91%),var(--card));display:flex;align-items:center;gap:12px;box-shadow:0 18px 48px var(--shadow);backdrop-filter:blur(16px)}.now-orb{width:32px;height:32px;flex:0 0 32px;border-radius:999px;background:color-mix(in oklab,var(--green),transparent 86%);display:grid;place-items:center;color:var(--green)}
-.actions,.social{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px}.btn{position:relative;overflow:hidden;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 18px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,var(--card2),var(--card));font-weight:850;transition:.25s var(--ease);box-shadow:0 12px 30px color-mix(in oklab,var(--shadow),transparent 20%)}.btn:before{content:"";position:absolute;inset:-2px;translate:-120% 0;background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,.0) 35%,rgba(255,255,255,.42) 50%,rgba(255,255,255,0) 64%,transparent 100%);transition:translate .72s var(--ease)}.btn:hover{transform:translateY(-3px);border-color:color-mix(in oklab,var(--accent),var(--line2) 40%);box-shadow:0 22px 46px var(--shadow)}.btn:hover:before{translate:120% 0}.btn.primary{background:linear-gradient(135deg,var(--text),color-mix(in oklab,var(--text),var(--accent) 22%));color:var(--bg);border-color:var(--text)}[data-theme=light] .btn.primary{color:#fff}.microcopy{display:block;margin-top:-12px;margin-bottom:18px;color:var(--faint);font:760 .68rem var(--mono);letter-spacing:.035em;text-transform:uppercase}.social a{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font:740 .8rem var(--mono)}.external::after{content:"↗";font-size:.78em;margin-left:.24em;color:var(--green)}
-.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0 0}.journey-card,.surface{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 18px 48px var(--shadow),inset 0 1px 0 rgba(255,255,255,.18);backdrop-filter:blur(16px);transition:.26s var(--ease)}.journey-card{display:flex;flex-direction:column;gap:8px;min-height:116px;padding:16px}.journey-card:hover,.surface:hover{transform:translateY(-5px);border-color:color-mix(in oklab,var(--accent),var(--line2) 55%);box-shadow:0 28px 70px var(--shadow)}.journey-card i,.feature-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:14px;border:1px solid var(--line);background:var(--card2);color:var(--accent)}.journey-card span,.feature p,.quote p,.now-item p,.contact-mini p,.newsletter p{color:var(--muted)}
-.section{padding:clamp(72px,9vw,118px) 0;border-bottom:1px solid var(--line)}.idx{display:block;margin-bottom:10px;color:var(--muted);font:820 .74rem var(--mono);letter-spacing:.045em;text-transform:uppercase}h2{font-family:var(--display);font-size:clamp(1.9rem,4vw,3.35rem);font-weight:950;line-height:1.02;letter-spacing:-.06em}h3{letter-spacing:-.035em}.reading-path{max-width:780px;margin:22px 0 24px;padding:12px 14px;border-radius:18px;color:var(--muted);font-size:.9rem;background:var(--card);border:1px solid var(--line)}.reading-path strong{color:var(--text)}.spotlight{display:grid;grid-template-columns:.72fr 1.28fr;gap:18px;margin:30px 0 22px}.book-cover{position:relative;min-height:310px;border-radius:24px;border:1px solid var(--line);overflow:hidden;background:linear-gradient(145deg,#101827,#243b68 50%,#0ea56f);box-shadow:0 28px 70px var(--shadow),inset 0 1px 0 rgba(255,255,255,.2);display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:#fff}.book-cover:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 12%,rgba(255,255,255,.24),transparent 28%),linear-gradient(90deg,rgba(255,255,255,.12),transparent 18%,transparent 86%,rgba(0,0,0,.22))}.book-cover>*{position:relative}.book-cover span{width:42px;height:3px;border-radius:99px;background:rgba(255,255,255,.58)}.book-cover strong{font-family:var(--display);font-size:clamp(1.35rem,3vw,2.15rem);line-height:.95;font-weight:950;letter-spacing:-.07em}.book-cover em{font:800 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase;opacity:.78;font-style:normal}.book-cover.mini{min-height:145px;border-radius:18px;padding:15px;margin-bottom:16px}.spotlight-copy{padding:24px}.spotlight-copy p{color:var(--muted)}.spotlight-list{display:grid;gap:9px;margin:16px 0 18px;color:var(--muted);font-size:.92rem}.spotlight-list li{list-style:none;display:flex;gap:9px}.spotlight-list i{color:var(--green);margin-top:4px}
-.book-controls{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}.search,.filter{border:1px solid var(--line);background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 12px 30px var(--shadow);backdrop-filter:blur(16px)}.search{flex:1 1 280px;min-height:44px;border-radius:999px;padding:0 14px;outline:none}.filter{position:relative;overflow:hidden;min-height:44px;padding:0 14px;border-radius:999px;color:var(--muted);font-weight:800;transition:.22s var(--ease)}.filter.active{background:var(--text);color:var(--bg)}[data-theme=light] .filter.active{color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:18px}.book-card{display:block;height:100%;border-radius:24px}.book{height:100%;min-height:340px;padding:20px;display:flex;flex-direction:column}.book-index{position:absolute;right:22px;top:22px;color:rgba(255,255,255,.75);font:850 .68rem var(--mono);z-index:2}.book h3{margin:0 0 7px;font-size:1.04rem;font-weight:920}.book p{color:var(--muted);font-size:.86rem;line-height:1.5}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:14px}.chips span{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--card2);color:var(--muted);font-size:.68rem;font-weight:780}.book-buy{margin-top:14px;min-height:38px;display:flex;align-items:center;justify-content:space-between;padding:8px 9px 8px 12px;border:1px solid var(--line);border-radius:999px;font-weight:850;font-size:.76rem;background:linear-gradient(180deg,var(--card2),var(--card))}.book-extra{display:none}.books-grid.show-all .book-extra{display:block;animation:rise .35s var(--ease) both}.book-card.hidden{display:none!important}.books-more-wrap{display:flex;justify-content:center;margin-top:24px}.books-more-btn,.copy-btn{position:relative;overflow:hidden;min-height:44px;display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(135deg,var(--card),color-mix(in oklab,var(--green),transparent 88%));font-weight:850;transition:.22s var(--ease)}.books-more-btn:hover,.copy-btn:hover{transform:translateY(-2px);box-shadow:0 14px 32px var(--shadow)}.more-count{padding:4px 8px;border-radius:999px;background:var(--card2);color:var(--muted);font:850 .62rem var(--mono)}.empty-state{display:none;margin-top:16px;padding:16px;border:1px dashed var(--line2);border-radius:20px;color:var(--muted);background:color-mix(in oklab,var(--card),transparent 24%)}.empty-state.show{display:block}
-.cards-3,.quote-grid,.now-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature,.quote,.now-item,.contact-mini{padding:24px}.feature-icon{margin-bottom:12px}.newsletter{margin-top:26px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;background:linear-gradient(135deg,color-mix(in oklab,var(--accent),transparent 91%),color-mix(in oklab,var(--green),transparent 92%),var(--card))}.copy-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 24px}.copy-pill{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--muted);font-weight:760}.contact-card{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}.email-big{display:inline-flex;margin:20px 0 14px;font-size:clamp(1.15rem,3vw,2rem);font-weight:920;letter-spacing:-.04em;word-break:break-word}.footer{display:grid;grid-template-columns:1fr 1.2fr;gap:34px;margin-top:64px;padding-top:40px;border-top:1px solid var(--line)}.footer p,.footer a{color:var(--muted);font-size:.9rem}.foot-links{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.foot-links a{display:block;margin:8px 0}.base{grid-column:1/-1;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font:760 .72rem var(--mono)}
-.top{position:fixed;right:18px;bottom:18px;z-index:900;width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);border-radius:16px;background:var(--nav);backdrop-filter:blur(16px);opacity:0;pointer-events:none;transition:.22s var(--ease)}.top.show{opacity:1;pointer-events:auto}.toast,.quiet-popup{position:fixed;z-index:1001;border:1px solid var(--line);background:var(--nav);box-shadow:0 24px 60px var(--shadow);opacity:0;pointer-events:none;transition:.25s var(--ease);backdrop-filter:blur(16px)}.toast{left:50%;bottom:22px;transform:translateX(-50%) translateY(12px);padding:10px 14px;border-radius:999px;color:var(--muted)}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}.quiet-popup{right:14px;top:78px;display:flex;gap:12px;width:min(92vw,340px);padding:12px;border-radius:22px}.quiet-popup.show{opacity:1;transform:translateY(0)}.target-pulse{animation:targetPulse 1.3s var(--ease)}.cmd{position:fixed;inset:0;z-index:2000;display:none;place-items:start center;padding-top:12vh;background:rgba(0,0,0,.28);backdrop-filter:blur(8px)}.cmd.show{display:grid}.cmd-box{width:min(92vw,560px);border:1px solid var(--line);border-radius:24px;background:var(--nav);box-shadow:0 30px 90px var(--shadow);overflow:hidden}.cmd input{width:100%;height:58px;border:0;border-bottom:1px solid var(--line);background:transparent;padding:0 18px;outline:0}.cmd-list{padding:8px}.cmd-item{display:flex;gap:10px;width:100%;padding:12px;border-radius:16px;text-align:left;color:var(--muted)}.cmd-item:hover{background:var(--card2);color:var(--text)}.reveal{opacity:0;transform:translateY(18px);transition:.7s var(--ease)}.reveal.in{opacity:1;transform:none}.ripple{position:absolute;border-radius:999px;transform:scale(0);background:rgba(255,255,255,.42);pointer-events:none;animation:ripple .65s ease-out forwards}.no-fa i:before{font-family:var(--font)!important;font-weight:900}.no-fa .fa-book-open:before{content:"B"}.no-fa .fa-bolt:before{content:"P"}.no-fa .fa-pen-nib:before{content:"E"}.no-fa .fa-paper-plane:before{content:"@"}.no-fa .fa-magnifying-glass:before{content:"⌕"}
-@keyframes pulse{from{opacity:.65;transform:scale(.92)}to{opacity:1;transform:scale(1.08)}}@keyframes gradientShift{from{background-position:0 0}to{background-position:100% 100%}}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}@keyframes ripple{to{transform:scale(3.2);opacity:0}}@keyframes targetPulse{0%{box-shadow:0 0 0 0 color-mix(in oklab,var(--accent),transparent 55%)}100%{box-shadow:0 0 0 18px transparent}}
-body.quiet *{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}@media(prefers-reduced-data:reduce){body:before,body:after,.book-cover:before{display:none!important}.surface,.btn,.book-cover{box-shadow:none!important}}
-/* Only requested polish: smoother feel + premium mobile load-more. Layout/header/content remain unchanged. */
-@media (prefers-reduced-motion:no-preference){.surface,.journey-card,.btn,.books-more-btn,.copy-btn,.filter,.icon-btn,.quiet-toggle{will-change:transform}}
-.books-more-btn{isolation:isolate;box-shadow:0 16px 38px color-mix(in oklab,var(--shadow),transparent 10%),inset 0 1px 0 rgba(255,255,255,.2)}.books-more-btn:before{content:"";position:absolute;inset:-2px;translate:-130% 0;background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,.42) 50%,rgba(255,255,255,0) 64%,transparent 100%);transition:translate .7s var(--ease)}.books-more-btn:hover:before{translate:130% 0}.books-more-btn i{transition:transform .22s var(--ease),color .22s var(--ease)}.books-more-btn:hover i{transform:rotate(90deg);color:var(--green)}
-@media(max-width:980px){.links{display:none}.cards-3,.quote-grid,.now-list,.journey{grid-template-columns:1fr 1fr}.footer,.spotlight{grid-template-columns:1fr}.section-map{display:none}}@media(max-width:680px){body{padding-bottom:76px}.wrap{width:min(100% - 24px,var(--max));padding-inline:0}nav.topnav{height:62px}.logo{font-size:.92rem}.logo-sub-lines{font-size:.44rem}.hero{padding-top:96px;min-height:auto}.actions{flex-direction:column}.btn,.books-more-btn{width:100%;min-height:52px}.bottom-nav{display:grid}.journey,.cards-3,.quote-grid,.now-list,.contact-card,.newsletter{grid-template-columns:1fr}.book-controls{display:grid;grid-template-columns:1fr 1fr}.search{grid-column:1/-1;min-height:48px}.grid{grid-template-columns:1fr}.book-cover{min-height:240px}.book-cover.mini{min-height:132px}#quiet{width:40px;min-width:40px;padding:0;justify-content:center}#quiet .quiet-label{display:none}.email-big{width:100%;font-size:clamp(1.05rem,7vw,1.45rem)}.copy-row>*{width:100%;justify-content:center}.foot-links{grid-template-columns:1fr}.books-more-btn{justify-content:center;padding:10px 15px;background:linear-gradient(180deg,var(--card2),var(--card)),radial-gradient(circle at 18% 0%,color-mix(in oklab,var(--accent),transparent 84%),transparent 34%),radial-gradient(circle at 100% 100%,color-mix(in oklab,var(--green),transparent 86%),transparent 38%);box-shadow:0 18px 42px color-mix(in oklab,var(--shadow),transparent 6%),inset 0 1px 0 rgba(255,255,255,.22)}.more-count{min-width:34px;height:24px;display:inline-grid;place-items:center}}
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Nazir Noori</title><meta name="description" content="Books, essays, poetry, writing, Pulse Studios, and quiet digital systems by Nazir Noori."><meta name="theme-color" content="#f8fafc"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop stop-color=%22%230f172a%22/%3E%3Cstop offset=%22.55%22 stop-color=%22%232563eb%22/%3E%3Cstop offset=%221%22 stop-color=%22%2310b981%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22128%22 height=%22128%22 rx=%2232%22 fill=%22url(%23g)%22/%3E%3Cpath d=%22M29 92V34h13.8l29.6 35.8V34H99v58H85.2L55.5 56.1V92H29Z%22 fill=%22%23fff%22/%3E%3Ccircle cx=%2299%22 cy=%2230%22 r=%228%22 fill=%22%2334d399%22/%3E%3C/svg%3E"><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><style>
+:root{--font:-apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,"Segoe UI",Roboto,Arial,sans-serif;--display:-apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,"Segoe UI",Roboto,Arial,sans-serif;--mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;--max:1120px;--pad:clamp(16px,4vw,36px);--ease:cubic-bezier(.16,1,.3,1)}[data-theme=light]{--bg:#f8fafc;--bg2:#fff;--card:rgba(255,255,255,.78);--card2:rgba(255,255,255,.98);--text:#0f172a;--muted:#64748b;--faint:#94a3b8;--line:rgba(15,23,42,.09);--accent:#2563eb;--green:#10b981;--gold:#b7791f;--shadow:rgba(15,23,42,.1);--nav:rgba(248,250,252,.78)}[data-theme=dark]{--bg:#05070a;--bg2:#0b0f16;--card:rgba(13,18,27,.86);--card2:rgba(20,27,39,.96);--text:#f6f7f9;--muted:#a6afba;--faint:#778290;--line:rgba(255,255,255,.12);--accent:#7dd3fc;--green:#34d399;--gold:#f0c36a;--shadow:rgba(0,0,0,.48);--nav:rgba(5,7,10,.82)}*{box-sizing:border-box;margin:0;padding:0;min-width:0}html{scroll-behavior:smooth;scroll-padding-top:94px;background:var(--bg)}body{font-family:var(--font);color:var(--text);background:radial-gradient(circle at 12% -6%,color-mix(in oklab,var(--accent),transparent 88%),transparent 28%),radial-gradient(circle at 92% 0%,color-mix(in oklab,var(--green),transparent 90%),transparent 24%),linear-gradient(180deg,var(--bg),var(--bg2) 44%,var(--bg));line-height:1.65;letter-spacing:-.014em;opacity:0;overflow-x:hidden;-webkit-font-smoothing:antialiased}body.loaded{opacity:1;transition:.35s var(--ease)}body:before{content:"";position:fixed;inset:-25%;z-index:-2;opacity:.42;filter:blur(10px);background:radial-gradient(circle at var(--mx,22%) var(--my,18%),color-mix(in oklab,var(--accent),transparent 88%),transparent 20%)}body:after{content:"";position:fixed;inset:0;z-index:-1;opacity:.03;background-image:linear-gradient(var(--text) 1px,transparent 1px),linear-gradient(90deg,var(--text) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,black,transparent 76%)}a{color:inherit;text-decoration:none}button,input{font:inherit;color:inherit}button{border:0;background:none;cursor:pointer}.wrap{width:min(92%,var(--max));margin:auto;padding-inline:var(--pad)}.progress-wrap{position:fixed;top:0;left:0;width:100%;height:2px;z-index:10000}.progress{height:100%;transform:scaleX(0);transform-origin:left;background:linear-gradient(90deg,var(--accent),var(--green),var(--gold));box-shadow:0 0 24px color-mix(in oklab,var(--accent),transparent 45%)}
+header{position:fixed;inset:0 0 auto;z-index:999;transition:.28s var(--ease)}header.scrolled{background:var(--nav);border-bottom:1px solid var(--line);backdrop-filter:blur(18px) saturate(1.25)}nav.topnav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{display:flex;flex-direction:column;font-weight:950;line-height:1.02;letter-spacing:-.04em;white-space:nowrap}.logo-sub-lines{display:grid;gap:1px;margin-top:3px;color:var(--muted);font:750 .49rem var(--mono);letter-spacing:.18em;text-transform:uppercase}.links{display:flex;gap:7px;list-style:none;padding:6px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.35);backdrop-filter:blur(16px) saturate(1.4)}[data-theme=dark] .links{background:rgba(10,14,21,.45)}.links a{display:inline-flex;align-items:center;gap:7px;padding:8px 12px;border-radius:999px;color:var(--muted);font-size:.81rem;font-weight:780;transition:.2s var(--ease)}.links a:hover,.links a.active{color:var(--text);background:linear-gradient(135deg,color-mix(in oklab,var(--accent),transparent 86%),color-mix(in oklab,var(--green),transparent 90%));transform:translateY(-1px)}.nav-actions{display:flex;gap:10px;align-items:center}.icon-btn,.quiet-toggle{height:40px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(180deg,var(--card2),var(--card));transition:.22s var(--ease);box-shadow:0 18px 48px var(--shadow),inset 0 1px 0 rgba(255,255,255,.18);backdrop-filter:blur(12px)}.icon-btn{width:40px;display:grid;place-items:center}.quiet-toggle{display:flex;align-items:center;gap:8px;padding:0 11px}.quiet-dot{width:9px;height:9px;border-radius:999px;background:var(--muted);box-shadow:0 0 0 5px color-mix(in oklab,var(--muted),transparent 90%)}body.quiet .quiet-dot{background:var(--green)}.quiet-label{font:820 .68rem var(--mono);letter-spacing:.045em;text-transform:uppercase}
+.dock-nav{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(18px) scale(.965);z-index:950;width:min(92vw,470px);display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:8px;border:1px solid rgba(255,255,255,.28);border-radius:30px;background:linear-gradient(180deg,rgba(255,255,255,.42),rgba(255,255,255,.18));backdrop-filter:blur(42px) saturate(2.4);-webkit-backdrop-filter:blur(42px) saturate(2.4);box-shadow:0 28px 90px rgba(15,23,42,.22),inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.22);opacity:0;pointer-events:none;transition:.38s var(--ease)}[data-theme=dark] .dock-nav{background:linear-gradient(180deg,rgba(32,38,52,.38),rgba(7,10,15,.24));border-color:rgba(255,255,255,.16);box-shadow:0 30px 95px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.16)}.dock-nav:before{content:"";position:absolute;inset:1px;border-radius:29px;background:linear-gradient(180deg,rgba(255,255,255,.36),transparent 38%,rgba(255,255,255,.10));pointer-events:none}.dock-nav a{position:relative;display:grid;place-items:center;gap:2px;min-height:50px;border-radius:22px;color:var(--muted);font-size:.66rem;font-weight:850;transition:.22s var(--ease)}.dock-nav a i{font-size:1.08rem;transition:.22s var(--ease)}.dock-nav a.active,.dock-nav a:hover{color:var(--text);background:color-mix(in oklab,var(--card2),transparent 58%)}.dock-nav a.active i,.dock-nav a:hover i{color:var(--green);transform:translateY(-2px);filter:drop-shadow(0 10px 12px color-mix(in oklab,var(--green),transparent 62%))}body.dock-visible .dock-nav{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0) scale(1)}
+.hero{min-height:100svh;display:grid;align-items:center;padding:120px 0 92px;border-bottom:1px solid var(--line)}.kicker{position:relative;display:inline-flex;gap:10px;align-items:center;margin-bottom:24px;padding:0 0 10px;border:0;background:transparent;color:color-mix(in oklab,var(--muted),var(--text) 8%);font:760 .72rem var(--mono);text-transform:uppercase;letter-spacing:.075em}.kicker:after{content:"";position:absolute;left:0;bottom:0;width:min(100%,270px);height:1px;border-radius:999px;background:linear-gradient(90deg,var(--accent),var(--green),transparent 86%);opacity:.58}.live-dot{width:8px;height:8px;border-radius:999px;background:linear-gradient(135deg,var(--green),var(--accent));box-shadow:0 0 0 5px color-mix(in oklab,var(--green),transparent 88%),0 0 22px color-mix(in oklab,var(--green),transparent 42%);animation:pulse 2.5s infinite alternate}h1{max-width:950px;margin-bottom:24px;font-family:var(--display);font-size:clamp(3rem,8vw,7.6rem);font-weight:950;line-height:.9;letter-spacing:-.078em;background:linear-gradient(135deg,var(--text) 13%,color-mix(in oklab,var(--accent),var(--text) 20%) 58%,var(--green) 106%);background-size:160%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:gradientShift 10s ease-in-out infinite alternate}.subtitle{max-width:760px;margin-bottom:16px;font-size:clamp(1.12rem,1.2vw + .82rem,1.45rem);line-height:1.45;font-weight:680;color:color-mix(in oklab,var(--text),var(--muted) 28%)}.bio,.section-note{max-width:74ch;color:var(--muted)}.inline{background-image:linear-gradient(90deg,var(--accent),var(--green));background-size:100% 1px;background-position:0 100%;background-repeat:no-repeat;transition:.22s var(--ease)}.inline:hover{background-size:100% 9px;color:var(--text)}.proof-strip{display:flex;flex-wrap:wrap;gap:9px 12px;margin:24px 0;color:var(--muted);font:800 .68rem var(--mono);letter-spacing:.06em;text-transform:uppercase}.proof-strip span{position:relative;padding-left:13px}.proof-strip span:before{content:"✦";position:absolute;left:0;color:var(--green);font-size:.62rem}.proof-strip:after{content:"";flex-basis:min(100%,360px);height:1px;background:linear-gradient(90deg,var(--accent),var(--green),transparent);opacity:.45}.now-card{max-width:760px;margin:0 0 24px;padding:12px 14px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(135deg,color-mix(in oklab,var(--green),transparent 91%),var(--card));display:flex;align-items:center;gap:12px;box-shadow:0 18px 48px var(--shadow);backdrop-filter:blur(16px)}.now-orb{width:32px;height:32px;flex:0 0 32px;border-radius:999px;background:color-mix(in oklab,var(--green),transparent 86%);display:grid;place-items:center;color:var(--green)}.actions,.social{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px}.btn{position:relative;overflow:hidden;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:11px 18px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,var(--card2),var(--card));font-weight:850;transition:.25s var(--ease);box-shadow:0 12px 30px color-mix(in oklab,var(--shadow),transparent 20%)}.btn:before,.book-buy:before,.books-more-btn:before,.journey-more:before{content:"";position:absolute;inset:-2px;translate:-125% 0;background:linear-gradient(110deg,transparent 0%,rgba(255,255,255,0) 35%,rgba(255,255,255,.42) 50%,rgba(255,255,255,0) 64%,transparent 100%);transition:translate .72s var(--ease)}.btn:hover,.books-more-btn:hover,.journey-more:hover{transform:translateY(-3px);border-color:color-mix(in oklab,var(--accent),var(--line) 40%);box-shadow:0 22px 46px var(--shadow)}.btn:hover:before,.books-more-btn:hover:before,.journey-more:hover:before,.book-card:hover .book-buy:before{translate:125% 0}.btn.primary{background:linear-gradient(135deg,var(--text),color-mix(in oklab,var(--text),var(--accent) 22%));color:var(--bg);border-color:var(--text)}[data-theme=light] .btn.primary{color:#fff}.microcopy{display:block;margin-top:-12px;margin-bottom:18px;color:var(--faint);font:760 .68rem var(--mono);letter-spacing:.035em;text-transform:uppercase}.social a,.foot-links a,.email-big{transition:.22s var(--ease)}.social a{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font:740 .8rem var(--mono)}.social a:hover,.foot-links a:hover,.email-big:hover{color:var(--text);transform:translateY(-2px)}.external:after{content:"↗";font-size:.78em;margin-left:.24em;color:var(--green)}
+.mini-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 4px;max-width:760px}.mini-link{padding:16px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 18px 48px var(--shadow);backdrop-filter:blur(16px);transition:.25s var(--ease)}.mini-link:hover{transform:translateY(-4px);border-color:color-mix(in oklab,var(--accent),var(--line) 45%);box-shadow:0 24px 58px var(--shadow)}.mini-link i{color:var(--green)}.mini-link strong{display:block;margin:8px 0 2px}.mini-link span{color:var(--muted);font-size:.86rem}
+.journey{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:26px 0 0}.journey-card,.surface{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 18px 48px var(--shadow),inset 0 1px 0 rgba(255,255,255,.18);backdrop-filter:blur(16px);transition:.26s var(--ease)}.journey-card{display:flex;flex-direction:column;gap:8px;min-height:116px;padding:16px}.journey-card:hover,.surface:hover{transform:translateY(-5px);border-color:color-mix(in oklab,var(--accent),var(--line) 55%);box-shadow:0 28px 70px var(--shadow)}.journey-card i,.feature-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:14px;border:1px solid var(--line);background:var(--card2);color:var(--accent)}.journey-card span,.feature p,.quote p,.now-item p,.contact-mini p,.newsletter p,.medium-card p{color:var(--muted)}.journey-more-wrap{display:none;justify-content:center;margin-top:14px}.journey-more{position:relative;overflow:hidden;min-height:48px;display:inline-flex;align-items:center;gap:10px;padding:9px 15px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(135deg,var(--card),color-mix(in oklab,var(--green),transparent 88%));font-weight:850;box-shadow:0 16px 38px var(--shadow)}
+.section{padding:clamp(72px,9vw,118px) 0;border-bottom:1px solid var(--line)}.idx{display:block;margin-bottom:10px;color:var(--muted);font:820 .74rem var(--mono);letter-spacing:.045em;text-transform:uppercase}h2{font-family:var(--display);font-size:clamp(1.9rem,4vw,3.35rem);font-weight:950;line-height:1.02;letter-spacing:-.06em}h3{letter-spacing:-.035em}.reading-path{max-width:780px;margin:22px 0 24px;padding:12px 14px;border-radius:18px;color:var(--muted);font-size:.9rem;background:var(--card);border:1px solid var(--line)}.reading-path strong{color:var(--text)}.spotlight{display:grid;grid-template-columns:.72fr 1.28fr;gap:18px;margin:30px 0 22px}.book-cover{position:relative;min-height:310px;border-radius:24px;border:1px solid var(--line);overflow:hidden;background:linear-gradient(145deg,#101827,#243b68 50%,#0ea56f);box-shadow:0 28px 70px var(--shadow),inset 0 1px 0 rgba(255,255,255,.2);display:flex;flex-direction:column;justify-content:space-between;padding:22px;color:#fff}.book-cover:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 12%,rgba(255,255,255,.24),transparent 28%),linear-gradient(90deg,rgba(255,255,255,.12),transparent 18%,transparent 86%,rgba(0,0,0,.22))}.book-cover>*{position:relative}.book-cover span{width:42px;height:3px;border-radius:99px;background:rgba(255,255,255,.58)}.book-cover strong{font-family:var(--display);font-size:clamp(1.35rem,3vw,2.15rem);line-height:.95;font-weight:950;letter-spacing:-.07em}.book-cover em{font:800 .68rem var(--mono);letter-spacing:.12em;text-transform:uppercase;opacity:.78;font-style:normal}.book-cover.mini{min-height:145px;border-radius:18px;padding:15px;margin-bottom:16px}.spotlight-copy,.feature,.quote,.now-item,.contact-mini{padding:24px}.spotlight-copy p{color:var(--muted)}.spotlight-list{display:grid;gap:9px;margin:16px 0 18px;color:var(--muted);font-size:.92rem}.spotlight-list li{list-style:none;display:flex;gap:9px}.spotlight-list i{color:var(--green);margin-top:4px}.book-controls{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}.search,.filter{border:1px solid var(--line);background:linear-gradient(180deg,var(--card2),var(--card));box-shadow:0 12px 30px var(--shadow);backdrop-filter:blur(16px)}.search{flex:1 1 280px;min-height:44px;border-radius:999px;padding:0 14px;outline:none}.filter{min-height:44px;padding:0 14px;border-radius:999px;color:var(--muted);font-weight:800;transition:.22s var(--ease)}.filter.active{background:var(--text);color:var(--bg)}[data-theme=light] .filter.active{color:#fff}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:18px}.book-card{display:block;height:100%;border-radius:24px}.book{height:100%;min-height:340px;padding:20px;display:flex;flex-direction:column}.book-index{position:absolute;right:22px;top:22px;color:rgba(255,255,255,.75);font:850 .68rem var(--mono);z-index:2}.book h3{margin:0 0 7px;font-size:1.04rem;font-weight:920}.book p{color:var(--muted);font-size:.86rem;line-height:1.5}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:14px}.chips span{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--card2);color:var(--muted);font-size:.68rem;font-weight:780}.book-buy{position:relative;overflow:hidden;margin-top:14px;min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 9px 8px 12px;border:1px solid var(--line);border-radius:999px;font-weight:850;font-size:.76rem;background:linear-gradient(180deg,var(--card2),var(--card));transition:.24s var(--ease)}.book-buy .fa-amazon{color:#ff9900;font-size:1rem}.book-buy b{width:26px;height:26px;display:grid;place-items:center;border-radius:999px;color:#fff;background:linear-gradient(135deg,var(--accent),var(--green));font-size:.72rem;transition:.24s var(--ease)}.book-card:hover .book-buy{transform:translateY(-1px);border-color:color-mix(in oklab,var(--accent),transparent 52%);box-shadow:0 12px 28px var(--shadow)}.book-card:hover .book-buy b{transform:translate(2px,-2px) rotate(8deg)}.book-extra{display:none}.books-grid.show-all .book-extra{display:block;animation:rise .35s var(--ease) both}.book-card.hidden{display:none!important}.books-more-wrap{display:flex;justify-content:center;margin-top:24px}.books-more-btn{position:relative;overflow:hidden;min-height:44px;display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:linear-gradient(135deg,var(--card),color-mix(in oklab,var(--green),transparent 88%));font-weight:850;transition:.22s var(--ease)}.more-count{padding:4px 8px;border-radius:999px;background:var(--card2);color:var(--muted);font:850 .62rem var(--mono)}.empty-state{display:none;margin-top:16px;padding:16px;border:1px dashed var(--line);border-radius:20px;color:var(--muted);background:color-mix(in oklab,var(--card),transparent 24%)}.empty-state.show{display:block}
+.cards-3,.quote-grid,.now-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature-icon{margin-bottom:12px}.newsletter{margin-top:26px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;background:linear-gradient(135deg,color-mix(in oklab,var(--accent),transparent 91%),color-mix(in oklab,var(--green),transparent 92%),var(--card))}.copy-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 24px}.copy-pill,.copy-btn{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:9px 13px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--muted);font-weight:760}.copy-btn{color:var(--text);font-weight:850}.contact-card{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}.email-big{display:inline-flex;margin:20px 0 14px;font-size:clamp(1.15rem,3vw,2rem);font-weight:920;letter-spacing:-.04em;word-break:break-word}.footer{display:grid;grid-template-columns:1fr 1.2fr;gap:34px;margin-top:64px;padding-top:40px;border-top:1px solid var(--line)}.footer p,.footer a{color:var(--muted);font-size:.9rem}.foot-links{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.foot-links a{display:block;margin:8px 0}.base{grid-column:1/-1;margin-top:24px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font:760 .72rem var(--mono)}.medium-card{margin-top:28px;padding:0;display:grid;grid-template-columns:1.08fr .92fr;gap:0;overflow:hidden;background:linear-gradient(135deg,color-mix(in oklab,var(--text),transparent 94%),color-mix(in oklab,var(--green),transparent 93%),var(--card))}.medium-card-copy{padding:28px;display:flex;flex-direction:column;justify-content:center;gap:12px}.medium-card-copy h3{font-size:clamp(1.35rem,2vw,2rem);line-height:1.05;font-weight:950}.medium-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}.medium-meta span{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:var(--card2);color:var(--muted);font:800 .66rem var(--mono);text-transform:uppercase}.medium-panel{position:relative;min-height:310px;padding:28px;display:flex;flex-direction:column;border-left:1px solid var(--line);background:radial-gradient(circle at 18% 8%,color-mix(in oklab,var(--green),transparent 84%),transparent 32%),linear-gradient(145deg,color-mix(in oklab,var(--text),transparent 6%),color-mix(in oklab,var(--accent),var(--text) 58%));color:#fff}.medium-mark{width:48px;height:48px;border-radius:18px;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2)}.medium-panel .medium-mark+div{margin-top:42px}.medium-panel strong{display:block;font-size:clamp(1.45rem,2.4vw,2.25rem);line-height:.96;letter-spacing:-.065em}.medium-panel small{display:block;margin-top:10px;color:rgba(255,255,255,.72);font:850 .7rem var(--mono);text-transform:uppercase}.medium-cta{margin-top:auto;align-self:flex-start;min-height:50px;display:inline-flex;align-items:center;gap:10px;padding:11px 15px 11px 16px;border-radius:999px;background:#fff;color:#0f172a;font-weight:900;box-shadow:0 16px 36px rgba(0,0,0,.18);transition:.22s var(--ease)}.medium-cta i:last-child{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--green));color:#fff;font-size:.72rem}[data-theme=dark] .medium-card{background:linear-gradient(135deg,rgba(16,22,33,.94),rgba(11,16,24,.88));border-color:rgba(255,255,255,.12)}[data-theme=dark] .medium-meta span{background:rgba(255,255,255,.055);border-color:rgba(255,255,255,.12)}[data-theme=dark] .medium-panel{background:radial-gradient(circle at 18% 8%,rgba(52,211,153,.18),transparent 34%),radial-gradient(circle at 90% 6%,rgba(125,211,252,.14),transparent 28%),linear-gradient(145deg,#111827,#05070a)}[data-theme=dark] .medium-cta{background:rgba(255,255,255,.10);color:#fff;border:1px solid rgba(255,255,255,.18);box-shadow:0 18px 42px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.12)}
+.top{position:fixed;right:18px;bottom:18px;z-index:900;width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);border-radius:16px;background:var(--nav);backdrop-filter:blur(16px);opacity:0;pointer-events:none;transition:.22s var(--ease)}.top.show{opacity:1;pointer-events:auto}.toast,.quiet-popup{position:fixed;z-index:1001;border:1px solid var(--line);background:var(--nav);box-shadow:0 24px 60px var(--shadow);opacity:0;pointer-events:none;transition:.25s var(--ease);backdrop-filter:blur(16px)}.toast{left:50%;bottom:22px;transform:translateX(-50%) translateY(12px);padding:10px 14px;border-radius:999px;color:var(--muted)}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}.quiet-popup{right:14px;top:78px;display:flex;gap:12px;width:min(92vw,340px);padding:12px;border-radius:22px}.quiet-popup.show{opacity:1;transform:translateY(0)}.cmd{position:fixed;inset:0;z-index:2000;display:none;place-items:start center;padding-top:12vh;background:rgba(0,0,0,.28);backdrop-filter:blur(8px)}.cmd.show{display:grid}.cmd-box{width:min(92vw,560px);border:1px solid var(--line);border-radius:24px;background:var(--nav);box-shadow:0 30px 90px var(--shadow);overflow:hidden}.cmd input{width:100%;height:58px;border:0;border-bottom:1px solid var(--line);background:transparent;padding:0 18px;outline:0}.cmd-list{padding:8px}.cmd-item{display:flex;gap:10px;width:100%;padding:12px;border-radius:16px;text-align:left;color:var(--muted)}.cmd-item:hover{background:var(--card2);color:var(--text)}.reveal{opacity:0;transform:translateY(18px);transition:.7s var(--ease)}.reveal.in{opacity:1;transform:none}.ripple{position:absolute;border-radius:999px;transform:scale(0);background:rgba(255,255,255,.42);pointer-events:none;animation:ripple .65s ease-out forwards}@keyframes pulse{from{opacity:.65;transform:scale(.92)}to{opacity:1;transform:scale(1.08)}}@keyframes gradientShift{from{background-position:0 0}to{background-position:100% 100%}}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}@keyframes ripple{to{transform:scale(3.2);opacity:0}}body.quiet *{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}@media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+@media(max-width:980px){.links{display:none}.cards-3,.quote-grid,.now-list,.journey{grid-template-columns:1fr 1fr}.footer,.spotlight{grid-template-columns:1fr}}@media(max-width:680px){body{padding-bottom:88px}.wrap{width:min(100% - 24px,var(--max));padding-inline:0}nav.topnav{height:62px}.logo{font-size:.92rem}.logo-sub-lines{font-size:.44rem}.hero{padding-top:96px;min-height:auto}.kicker{width:100%;font-size:.68rem;letter-spacing:.055em}.actions{flex-direction:column}.btn,.books-more-btn,.journey-more{width:100%;min-height:52px;justify-content:center}.journey,.cards-3,.quote-grid,.now-list,.contact-card,.newsletter,.medium-card,.mini-links{grid-template-columns:1fr}.journey.collapsed .journey-extra{display:none}.journey.expanded .journey-extra{display:flex}.journey-more-wrap{display:flex}.book-controls{display:grid;grid-template-columns:1fr 1fr}.search{grid-column:1/-1;min-height:48px}.grid{grid-template-columns:1fr}.book-cover{min-height:240px}.book-cover.mini{min-height:132px}#quiet{width:40px;min-width:40px;padding:0;justify-content:center}#quiet .quiet-label{display:none}.email-big{width:100%;font-size:clamp(1.05rem,7vw,1.45rem)}.copy-row>*{width:100%;justify-content:center}.foot-links{grid-template-columns:1fr}.medium-panel{min-height:270px;padding:24px;border-left:0;border-top:1px solid var(--line)}.medium-cta{width:100%;justify-content:center;margin-top:36px;min-height:52px}}
 
-/* Medium feature card: designed to feel editorial, not just like a button */
-.medium-card{
-  margin-top:24px;
-  padding:0;
-  display:grid;
-  grid-template-columns:1.08fr .92fr;
-  gap:0;
-  overflow:hidden;
-  background:
-    linear-gradient(135deg,color-mix(in oklab,var(--text),transparent 94%),color-mix(in oklab,var(--green),transparent 93%),var(--card));
+/* Final dock behavior: mobile only + appears after first scroll */
+.dock-nav{display:none!important}
+@media(max-width:680px){
+  .dock-nav{display:grid!important;opacity:0;pointer-events:none;transform:translateX(-50%) translateY(18px) scale(.965)}
+  body.dock-visible .dock-nav{opacity:1;pointer-events:auto;transform:translateX(-50%) translateY(0) scale(1)}
 }
-.medium-card-copy{padding:26px;display:flex;flex-direction:column;justify-content:center;gap:12px}
-.medium-card-copy h3{font-family:var(--display);font-size:clamp(1.35rem,2vw,2rem);line-height:1.05;font-weight:950;letter-spacing:-.055em}
-.medium-card-copy p{color:var(--muted);max-width:58ch}
-.medium-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
-.medium-meta span{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:var(--card2);color:var(--muted);font:800 .66rem var(--mono);letter-spacing:.035em;text-transform:uppercase}
-.medium-panel{position:relative;min-height:235px;padding:24px;display:flex;flex-direction:column;justify-content:space-between;border-left:1px solid var(--line);background:radial-gradient(circle at 18% 8%,color-mix(in oklab,var(--green),transparent 84%),transparent 32%),linear-gradient(145deg,color-mix(in oklab,var(--text),transparent 6%),color-mix(in oklab,var(--accent),var(--text) 58%)) ;color:#fff}
-.medium-panel:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 84% 18%,rgba(255,255,255,.22),transparent 26%),linear-gradient(90deg,rgba(255,255,255,.10),transparent 22%,transparent 78%,rgba(0,0,0,.18));pointer-events:none}
-.medium-panel>*{position:relative}.medium-mark{width:48px;height:48px;border-radius:18px;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.18)}.medium-mark i{font-size:1.25rem}.medium-panel strong{display:block;font-family:var(--display);font-size:clamp(1.45rem,2.4vw,2.25rem);line-height:.96;letter-spacing:-.065em}.medium-panel small{display:block;margin-top:10px;color:rgba(255,255,255,.72);font:850 .7rem var(--mono);letter-spacing:.09em;text-transform:uppercase}.medium-cta{align-self:flex-start;min-height:44px;display:inline-flex;align-items:center;gap:10px;padding:9px 13px;border-radius:999px;background:#fff;color:#0f172a;font-weight:900;box-shadow:0 16px 36px rgba(0,0,0,.18);transition:.22s var(--ease)}.medium-cta:hover{transform:translateY(-2px);box-shadow:0 22px 44px rgba(0,0,0,.22)}.medium-cta i:last-child{width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--green));color:#fff;font-size:.72rem}
-@media(max-width:760px){.medium-card{grid-template-columns:1fr}.medium-panel{min-height:210px;border-left:0;border-top:1px solid var(--line)}.medium-card-copy{padding:22px}.medium-cta{width:100%;justify-content:center}}
+/* Move Studio/Archive to a quieter bottom compact area */
+.footer-mini-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:30px 0 8px}
+.footer-mini-links .mini-link{padding:12px 13px;border-radius:18px;box-shadow:0 12px 30px color-mix(in oklab,var(--shadow),transparent 22%)}
+.footer-mini-links .mini-link i{font-size:.9rem}.footer-mini-links .mini-link strong{font-size:.92rem;margin:5px 0 1px}.footer-mini-links .mini-link span{font-size:.78rem;line-height:1.35}
+@media(max-width:680px){.footer-mini-links{grid-template-columns:1fr;margin-top:26px}.footer-mini-links .mini-link{padding:12px}}
 
 
-/* Medium card refinement: more breathing room between content and CTA */
-.medium-card{
-  margin-top:28px;
+/* Ultra-premium micro-polish: glass controls + refined book CTA */
+.icon-btn,.quiet-toggle,.search{
+  background:linear-gradient(180deg,rgba(255,255,255,.56),rgba(255,255,255,.22))!important;
+  border:1px solid rgba(255,255,255,.34)!important;
+  backdrop-filter:blur(28px) saturate(1.85)!important;
+  -webkit-backdrop-filter:blur(28px) saturate(1.85)!important;
+  box-shadow:0 18px 52px color-mix(in oklab,var(--shadow),transparent 8%),inset 0 1px 0 rgba(255,255,255,.52),inset 0 -1px 0 rgba(255,255,255,.14)!important;
 }
-.medium-panel{
-  min-height:310px;
-  padding:28px;
-  justify-content:flex-start;
-  gap:0;
+[data-theme=dark] .icon-btn,[data-theme=dark] .quiet-toggle,[data-theme=dark] .search{
+  background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.035))!important;
+  border-color:rgba(255,255,255,.16)!important;
+  box-shadow:0 20px 58px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.15),inset 0 -1px 0 rgba(255,255,255,.05)!important;
 }
-.medium-panel .medium-mark + div{
-  margin-top:42px;
-  max-width:92%;
+.icon-btn:hover,.quiet-toggle:hover,.search:focus{
+  transform:translateY(-2px);
+  border-color:color-mix(in oklab,var(--accent),rgba(255,255,255,.35) 58%)!important;
+  box-shadow:0 24px 64px color-mix(in oklab,var(--shadow),transparent 0%),0 0 0 1px color-mix(in oklab,var(--accent),transparent 78%),inset 0 1px 0 rgba(255,255,255,.56)!important;
 }
-.medium-panel .medium-mark + div + .medium-cta{
-  margin-top:auto;
+.quiet-dot{
+  background:linear-gradient(135deg,var(--muted),color-mix(in oklab,var(--muted),var(--text) 20%));
+  box-shadow:0 0 0 5px color-mix(in oklab,var(--muted),transparent 90%),0 0 20px color-mix(in oklab,var(--muted),transparent 70%);
 }
-.medium-cta{
-  min-height:50px;
-  padding:11px 15px 11px 16px;
-  border:1px solid rgba(255,255,255,.22);
-  letter-spacing:-.015em;
-  backdrop-filter:blur(12px);
+body.quiet .quiet-dot{
+  background:linear-gradient(135deg,var(--green),var(--accent));
+  box-shadow:0 0 0 5px color-mix(in oklab,var(--green),transparent 86%),0 0 24px color-mix(in oklab,var(--green),transparent 45%);
 }
-.medium-cta i:first-child{
-  font-size:1.05rem;
+.book-buy{
+  min-height:42px;
+  padding:9px 12px 9px 13px!important;
+  background:linear-gradient(180deg,color-mix(in oklab,var(--card2),transparent 0%),color-mix(in oklab,var(--card),transparent 0%)),radial-gradient(circle at 10% 0%,color-mix(in oklab,var(--accent),transparent 91%),transparent 38%)!important;
 }
-.medium-cta i:last-child{
-  margin-left:4px;
-  transition:transform .22s var(--ease), box-shadow .22s var(--ease);
+.book-buy span{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  letter-spacing:.005em;
 }
-.medium-cta:hover i:last-child{
-  transform:translate(2px,-2px) rotate(8deg);
-  box-shadow:0 10px 22px rgba(0,0,0,.18);
+.book-buy b{
+  width:auto!important;
+  height:auto!important;
+  display:inline-grid!important;
+  place-items:center;
+  border-radius:0!important;
+  background:transparent!important;
+  color:var(--muted)!important;
+  font-size:.82rem!important;
+  box-shadow:none!important;
+  transition:transform .22s var(--ease),color .22s var(--ease),filter .22s var(--ease)!important;
 }
-@media(max-width:760px){
-  .medium-panel{
-    min-height:270px;
-    padding:24px;
-  }
-  .medium-panel .medium-mark + div{
-    margin-top:34px;
-  }
-  .medium-cta{
-    margin-top:36px;
-    min-height:52px;
-  }
+.book-card:hover .book-buy b{
+  color:var(--green)!important;
+  transform:translate(3px,-3px) rotate(8deg)!important;
+  filter:drop-shadow(0 8px 12px color-mix(in oklab,var(--green),transparent 68%));
 }
-
-
-/* Hero kicker refinement: no heavy background, softer premium metadata line */
-.kicker{
-  position:relative;
-  isolation:isolate;
-  gap:10px;
-  margin-bottom:24px;
-  padding:0 0 10px 0;
-  border:0;
-  border-radius:0;
-  background:transparent;
-  box-shadow:none;
-  backdrop-filter:none;
-  color:color-mix(in oklab,var(--muted),var(--text) 8%);
-  letter-spacing:.075em;
+.book-card:hover .book-buy{
+  background:linear-gradient(180deg,color-mix(in oklab,var(--accent),transparent 92%),color-mix(in oklab,var(--green),transparent 94%))!important;
 }
-.kicker:after{
+.surface,.journey-card,.mini-link{
+  transform:translateZ(0);
+}
+.surface:after,.journey-card:after,.mini-link:after{
   content:"";
   position:absolute;
-  left:0;
-  bottom:0;
-  width:min(100%,270px);
-  height:1px;
-  border-radius:999px;
-  background:linear-gradient(90deg,var(--accent),var(--green),transparent 86%);
-  opacity:.58;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+  background:linear-gradient(135deg,rgba(255,255,255,.18),transparent 34%,transparent 70%,rgba(255,255,255,.06));
+  opacity:.45;
 }
-.kicker:before{
-  content:"";
-  position:absolute;
-  left:-8px;
-  bottom:-7px;
-  width:76px;
-  height:14px;
-  border-radius:999px;
-  background:color-mix(in oklab,var(--green),transparent 82%);
-  filter:blur(14px);
-  opacity:.72;
-  z-index:-1;
+[data-theme=dark] .surface:after,[data-theme=dark] .journey-card:after,[data-theme=dark] .mini-link:after{opacity:.18}
+@media(max-width:680px){
+  .icon-btn,.quiet-toggle{box-shadow:0 14px 34px color-mix(in oklab,var(--shadow),transparent 12%),inset 0 1px 0 rgba(255,255,255,.36)!important}
 }
+
+
+/* Restore premium circular link arrow on Amazon CTA */
+.book-buy b{
+  flex:0 0 26px!important;
+  width:26px!important;
+  height:26px!important;
+  display:grid!important;
+  place-items:center!important;
+  border-radius:999px!important;
+  background:linear-gradient(135deg,var(--accent),var(--green))!important;
+  color:#fff!important;
+  font-size:.72rem!important;
+  box-shadow:0 10px 22px color-mix(in oklab,var(--accent),transparent 70%),inset 0 1px 0 rgba(255,255,255,.22)!important;
+  transition:transform .22s var(--ease),box-shadow .22s var(--ease),filter .22s var(--ease)!important;
+}
+.book-card:hover .book-buy b{
+  color:#fff!important;
+  transform:translate(2px,-2px) rotate(8deg)!important;
+  box-shadow:0 14px 28px color-mix(in oklab,var(--green),transparent 62%),inset 0 1px 0 rgba(255,255,255,.24)!important;
+  filter:none!important;
+}
+
+
+/* Available live-dot refinement: smaller pulse, calmer motion, softer halo */
 .kicker .live-dot{
-  width:8px;
-  height:8px;
-  background:linear-gradient(135deg,var(--green),color-mix(in oklab,var(--accent),var(--green) 38%));
-  box-shadow:0 0 0 5px color-mix(in oklab,var(--green),transparent 88%),0 0 22px color-mix(in oklab,var(--green),transparent 42%);
+  width:6px!important;
+  height:6px!important;
+  flex:0 0 6px;
+  background:linear-gradient(135deg,var(--green),color-mix(in oklab,var(--green),var(--accent) 22%))!important;
+  box-shadow:
+    0 0 0 6px color-mix(in oklab,var(--green),transparent 88%),
+    0 0 18px color-mix(in oklab,var(--green),transparent 54%)!important;
+  animation:availablePulse 4.8s var(--ease) infinite!important;
+}
+@keyframes availablePulse{
+  0%,100%{opacity:.72;transform:scale(.92);box-shadow:0 0 0 5px color-mix(in oklab,var(--green),transparent 90%),0 0 14px color-mix(in oklab,var(--green),transparent 62%)}
+  50%{opacity:1;transform:scale(1.05);box-shadow:0 0 0 8px color-mix(in oklab,var(--green),transparent 86%),0 0 20px color-mix(in oklab,var(--green),transparent 52%)}
 }
 @media(max-width:680px){
-  .kicker{
-    width:100%;
-    margin-bottom:22px;
-    padding-bottom:9px;
-    font-size:.68rem;
-    letter-spacing:.055em;
-  }
-  .kicker:after{width:72%}
+  .kicker .live-dot{width:5.5px!important;height:5.5px!important;flex-basis:5.5px;box-shadow:0 0 0 6px color-mix(in oklab,var(--green),transparent 88%),0 0 16px color-mix(in oklab,var(--green),transparent 56%)!important}
 }
 
-</style>
-</head>
-<body>
-<a class="skip" href="#hero">Skip to content</a><div class="progress-wrap"><div class="progress" id="progress"></div></div>
-<header id="header"><nav class="wrap topnav" aria-label="Primary navigation"><a class="brand" href="#hero"><span class="logo">NAZIR NOORI<span class="logo-sub-lines"><span>Author</span><span>Pulse Studios</span></span></span></a><ul class="links"><li><a href="#featured"><i class="fa-solid fa-book-open"></i>Books</a></li><li><a href="#studio"><i class="fa-solid fa-bolt"></i>Studio</a></li><li><a href="#themes"><i class="fa-solid fa-layer-group"></i>Themes</a></li><li><a href="#essays"><i class="fa-solid fa-pen-nib"></i>Essays</a></li><li><a href="#contact"><i class="fa-solid fa-paper-plane"></i>Contact</a></li></ul><div class="nav-actions"><button class="quiet-toggle" id="quiet" aria-label="Toggle stillness mode"><span class="quiet-dot"></span><span class="quiet-label">Stillness</span></button><button class="icon-btn" id="cmdBtn" aria-label="Open command menu"><i class="fa-solid fa-magnifying-glass"></i></button><button class="icon-btn" id="theme" aria-label="Toggle theme"><i class="fa-regular fa-moon"></i></button></div></nav></header>
-<nav class="section-map" id="sectionMap" aria-label="Page progress"><a href="#hero" aria-label="Hero"></a><a href="#featured" aria-label="Books"></a><a href="#studio" aria-label="Studio"></a><a href="#themes" aria-label="Themes"></a><a href="#essays" aria-label="Essays"></a><a href="#contact" aria-label="Contact"></a></nav>
-<nav class="bottom-nav" id="bottomNav" aria-label="Mobile quick navigation"><a href="#featured"><i class="fa-solid fa-book-open"></i><span>Books</span></a><a href="#studio"><i class="fa-solid fa-bolt"></i><span>Studio</span></a><a href="#essays"><i class="fa-solid fa-pen-nib"></i><span>Essays</span></a><a href="#contact"><i class="fa-solid fa-paper-plane"></i><span>Contact</span></a></nav>
-<button class="top" id="top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button><div class="toast" id="toast" role="status" aria-live="polite"></div><div class="quiet-popup" id="quietPopup"><strong id="quietPopupTitle">Stillness is on</strong><span id="quietPopupText">Softer motion. Less noise.</span></div>
-<div class="cmd" id="cmd" aria-hidden="true"><div class="cmd-box" role="dialog" aria-modal="true" aria-label="Jump menu"><input id="cmdInput" placeholder="Jump to books, studio, essays, contact…" /><div class="cmd-list"><button class="cmd-item" data-go="#featured">📚 Books</button><button class="cmd-item" data-go="#studio">⚡ Pulse Studios</button><button class="cmd-item" data-go="#essays">✍️ Essays</button><button class="cmd-item" data-go="#contact">✉️ Contact</button></div></div></div>
-<main class="wrap" id="content">
-<section class="hero" id="hero"><div><div class="kicker"><span class="live-dot"></span>Writing · KL · <span id="clock">--:--:--</span></div><h1>Words, interfaces, and quiet systems.</h1><p class="subtitle">Books, essays, poems, and quiet interfaces gathered into one intentional space.</p><p class="bio">I write through the lens of <a class="inline" href="#themes">inner clarity</a>, <a class="inline" href="#themes">creative discipline</a>, <a class="inline" href="#themes">direct observation</a>, and <a class="inline" href="#themes">intentional living</a>. Alongside the writing, I design calm responsive websites through <a class="inline" href="https://nazirnoor.github.io/work/">Pulse Studios</a>.</p><div class="proof">Books • Essays • Poetry • Writing • Pulse Studios • Quiet systems</div><div class="now-card"><span class="now-orb"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>Building a body of work around presence, design, and the art of returning.</span></div><div class="actions"><a class="btn primary" href="#featured"><i class="fa-solid fa-book-open"></i>Explore Books</a><a class="btn" href="https://nazirnoor.github.io/work/"><i class="fa-solid fa-bolt"></i>Visit Pulse Studios</a><a class="btn" href="https://medium.com/@nazirnoorii"><i class="fa-solid fa-pen-nib"></i>Read Essays</a><a class="btn" href="#contact"><i class="fa-solid fa-paper-plane"></i>Write to Me</a></div><span class="microcopy">Begin with presence · See quiet interfaces · Read short reflections · Send a thoughtful note</span><div class="social"><a href="https://www.amazon.com/stores/Nazir-Noori/author/B0F4Q2QX3R?ref=ap_rdr&shoppingPortalEnabled=true"><i class="fa-brands fa-amazon"></i>Amazon</a><a href="https://medium.com/@nazirnoorii"><i class="fa-brands fa-medium"></i>Medium</a><a href="https://nazirnoor.github.io/work/"><i class="fa-solid fa-bolt"></i>Pulse Studios</a><a href="https://nazirnoor.github.io/pulsearchive/"><i class="fa-solid fa-box-archive"></i>Archive</a></div><div class="journey" aria-label="Start here"><a class="journey-card" href="#featured"><i class="fa-solid fa-book-open"></i><strong>I want a book</strong><span>Find the right doorway into presence, poetry, or discipline.</span></a><a class="journey-card" href="#studio"><i class="fa-solid fa-bolt"></i><strong>I need a website</strong><span>Explore calm, responsive interfaces through Pulse Studios.</span></a><a class="journey-card" href="#essays"><i class="fa-solid fa-pen-nib"></i><strong>I want essays</strong><span>Read reflections on attention, practice, and self-knowledge.</span></a><a class="journey-card" href="#contact"><i class="fa-solid fa-paper-plane"></i><strong>I want to connect</strong><span>Send a thoughtful note, brief, or collaboration idea.</span></a></div></div></section>
-<section class="section reveal" id="featured"><span class="idx">01 / Published Books</span><h2>A shelf for return, structure, and renewal</h2><p class="section-note">Each book is a different doorway: presence for returning, structure for discipline, poetry for softness, and reflection for the work of becoming honest.</p><div class="reading-path">Lost? Start with <strong>The Heart of Presence</strong>. Want structure? Start with <strong>114 Days with the Quran</strong>. Want softness? Start with <strong>The Ground Will Catch You</strong>.</div><div class="spotlight"><div class="book-cover"><span></span><strong>The Heart<br>of Presence</strong><em>Start here · Nazir Noori</em></div><article class="surface spotlight-copy"><span class="idx">Featured entry point</span><h3>The cleanest doorway into the work.</h3><p>If someone only reads one book first, this is the recommended beginning: a quiet return to attention, immediacy, and what is already here.</p><ul class="spotlight-list"><li><i class="fa-solid fa-check"></i><span>Best for first-time readers.</span></li><li><i class="fa-solid fa-check"></i><span>Aligned with the site’s central theme of presence.</span></li><li><i class="fa-solid fa-check"></i><span>Direct path into the rest of the writing ecosystem.</span></li></ul><a class="btn primary" href="https://a.co/d/0cwGO0ZY"><i class="fa-brands fa-amazon"></i>View Featured Book</a></article></div><div class="book-controls"><input class="search" id="bookSearch" placeholder="Search books…" aria-label="Search books" /><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="presence">Presence</button><button class="filter" data-filter="poetry">Poetry</button><button class="filter" data-filter="discipline">Discipline</button></div><div class="grid books-grid"><a class="book-card " data-title="the heart of presence" data-category="presence" href="https://a.co/d/0cwGO0ZY" target="_blank" rel="noopener noreferrer" aria-label="View The Heart of Presence on Amazon">
-  <article class="surface book">
-    <div class="book-index">01</div>
-    <div class="book-cover mini"><span></span><strong>The<br>Heart of Presence</strong><em>Start Here</em></div>
-    <h3>The Heart of Presence</h3><p>A quiet entry point into immediacy, attention, and the art of coming back to what is already here.</p>
-    <div class="chips"><span>Start Here</span><span>Now</span><span>Presence</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a>
-<a class="book-card " data-title="114 days with the quran" data-category="discipline quran structure" href="https://a.co/d/02TR43mP" target="_blank" rel="noopener noreferrer" aria-label="View 114 Days with the Quran on Amazon">
-  <article class="surface book">
-    <div class="book-index">02</div>
-    <div class="book-cover mini"><span></span><strong>114<br>Days with the Quran</strong><em>Quran</em></div>
-    <h3>114 Days with the Quran</h3><p>A daily companion for reflection, steadiness, and intentional engagement with sacred text.</p>
-    <div class="chips"><span>Quran</span><span>Reflection</span><span>Practice</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a>
-<a class="book-card " data-title="already home" data-category="presence awakening return" href="https://a.co/d/0awYXoK1" target="_blank" rel="noopener noreferrer" aria-label="View Already Home on Amazon">
-  <article class="surface book">
-    <div class="book-index">03</div>
-    <div class="book-cover mini"><span></span><strong>Already<br>Home</strong><em>Awakening</em></div>
-    <h3>Already Home</h3><p>A gentle return to the simple recognition that nothing essential is missing from this moment.</p>
-    <div class="chips"><span>Awakening</span><span>Stillness</span><span>Return</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a>
-<a class="book-card book-extra" data-title="the living flame" data-category="presence awareness" href="https://a.co/d/0aLI9LdT" target="_blank" rel="noopener noreferrer" aria-label="View The Living Flame on Amazon">
-  <article class="surface book">
-    <div class="book-index">04</div>
-    <div class="book-cover mini"><span></span><strong>The<br>Living Flame</strong><em>Krishnamurti</em></div>
-    <h3>The Living Flame</h3><p>A clear study of attention, conditioning, and freedom through the lens of Krishnamurti’s work.</p>
-    <div class="chips"><span>Krishnamurti</span><span>Awareness</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a>
-<a class="book-card book-extra" data-title="the ground will catch you" data-category="poetry surrender" href="https://a.co/d/0f81Tvup" target="_blank" rel="noopener noreferrer" aria-label="View The Ground Will Catch You on Amazon">
-  <article class="surface book">
-    <div class="book-index">05</div>
-    <div class="book-cover mini"><span></span><strong>The<br>Ground Will Catch You</strong><em>Poetry</em></div>
-    <h3>The Ground Will Catch You</h3><p>101 poems for the end of seeking — fragments of surrender, trust, silence, and return.</p>
-    <div class="chips"><span>Poetry</span><span>Surrender</span><span>Trust</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a>
-<a class="book-card book-extra" data-title="the prophetic default" data-category="discipline renewal intention" href="https://a.co/d/08VsWvOL" target="_blank" rel="noopener noreferrer" aria-label="View The Prophetic Default on Amazon">
-  <article class="surface book">
-    <div class="book-index">06</div>
-    <div class="book-cover mini"><span></span><strong>The<br>Prophetic Default</strong><em>Discipline</em></div>
-    <h3>The Prophetic Default</h3><p>Twelve principles for rebuilding inner architecture, breaking autopilot, and living with intention.</p>
-    <div class="chips"><span>Discipline</span><span>Renewal</span><span>Intention</span></div>
-    <div class="book-buy"><span>View on Amazon</span><i>↗</i></div>
-  </article>
-</a></div><div class="empty-state" id="bookEmpty"><strong>No matching book yet.</strong><br>Try presence, poetry, Quran, discipline, awareness, or return.</div><div class="books-more-wrap"><button class="books-more-btn" id="booksMoreBtn"><span><i class="fa-solid fa-plus"></i> More Books</span><span class="more-count">3 more</span></button></div></section>
-<section class="section reveal" id="reader-notes"><span class="idx">02 / Reader Notes</span><h2>Quiet proof, not loud persuasion</h2><p class="section-note">A few short signals to help new visitors understand the emotional texture of the work.</p><div class="quote-grid"><article class="surface quote"><p>“Clear, gentle, and grounding — the kind of writing that makes you slow down without forcing you.”</p><cite>Early reader note</cite></article><article class="surface quote"><p>“A calm doorway into presence, discipline, and inner sincerity.”</p><cite>Reader reflection</cite></article><article class="surface quote"><p>“The design and writing feel like the same person: minimal, intentional, and quietly confident.”</p><cite>Studio impression</cite></article></div></section>
-<section class="section reveal" id="studio"><span class="idx">03 / Pulse Studios</span><h2>Quiet websites for thoughtful brands</h2><p class="section-note">Pulse Studios translates the same restraint found in the writing into digital presence: clean pages, refined typography, purposeful interactions, and interfaces that feel calm without feeling empty.</p><div class="cards-3"><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-bolt"></i></div><span class="idx">Studio practice</span><h3>Clarity into interface.</h3><p>A good website does not shout. It creates trust, movement, and a room where the visitor can breathe.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-display"></i></div><span class="idx">Service</span><h3>Minimal websites</h3><p>Responsive pages for businesses, creators, and personal brands that need polish, speed, and clarity.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div><span class="idx">System</span><h3>Interface systems</h3><p>Reusable layout, spacing, typography, and interaction rules designed to keep a site coherent as it grows.</p></article></div></section>
-<section class="section reveal" id="themes"><span class="idx">04 / Core Themes</span><h2>The questions beneath the work</h2><p class="section-note">The writing keeps circling a few living questions: what is real, what is noise, what is worth building, and how can a life become more sincere without becoming heavy?</p><div class="cards-3"><article class="surface feature"><div class="feature-icon"><i class="fa-regular fa-clock"></i></div><h3>Presence</h3><p>The practice of returning to life before it becomes a performance, a story, or a problem to solve.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-compass"></i></div><h3>Meaning</h3><p>Finding direction through attention, responsibility, and the simple courage to live deliberately.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-regular fa-eye"></i></div><h3>Self-Knowledge</h3><p>Watching thought, identity, fear, and desire without turning them into another mask.</p></article></div></section>
-<section class="section reveal" id="now"><span class="idx">05 / Now</span><h2>Currently building</h2><p class="section-note">A lightweight living note for what is active: writing, design, and the quiet practice of building a coherent body of work.</p><div class="now-list"><article class="surface now-item"><time>Writing</time><h3>New essays and reflections</h3><p>Short notes on attention, creative discipline, self-knowledge, and intentional living.</p></article><article class="surface now-item"><time>Studio</time><h3>Premium minimal websites</h3><p>Refining the Pulse Studios design language for thoughtful businesses and personal brands.</p></article><article class="surface now-item"><time>Reading path</time><h3>Cleaner book discovery</h3><p>Helping visitors choose the right starting point from the full shelf.</p></article></div></section>
-<section class="section reveal" id="essays"><span class="idx">06 / Essays</span><h2>Notes from the middle of the path</h2><p class="section-note">Short-form reflections live on Medium: essays on attention, discipline, creative practice, self-knowledge, and building a life with fewer automatic choices.</p><article class="surface medium-card" aria-label="Medium essays feature">
-  <div class="medium-card-copy">
-    <span class="idx">Medium essays</span>
-    <h3>Longer reflections for slower attention.</h3>
-    <p>Essays on presence, discipline, creative practice, self-knowledge, and building a life with fewer automatic choices.</p>
-    <div class="medium-meta"><span><i class="fa-solid fa-feather-pointed"></i> Essays</span><span><i class="fa-regular fa-clock"></i> Slow reading</span><span><i class="fa-solid fa-seedling"></i> Inner clarity</span></div>
-  </div>
-  <div class="medium-panel">
-    <div class="medium-mark"><i class="fa-brands fa-medium"></i></div>
-    <div><strong>Read the notes<br>on Medium.</strong><small>Writing from the middle of the path</small></div>
-    <a class="medium-cta" href="https://medium.com/@nazirnoorii" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-medium"></i>Open Medium<i class="fa-solid fa-arrow-up-right"></i></a>
-  </div>
-</article><article class="surface newsletter"><div><span class="idx">Quiet notes</span><h3>Receive reflections on presence, design, and intentional living.</h3><p>Connect through Substack for slower, more thoughtful updates outside the noise of feeds.</p></div><a class="btn primary" href="https://nazirn.substack.com/"><i class="fa-solid fa-envelope-open-text"></i>Open Substack</a></article></section>
-<section class="section reveal" id="identity"><span class="idx">07 / Writing Identity</span><h2>How the work wants to feel</h2><p class="section-note">The tone is simple by design: not loud, not ornamental, not trying to impress — just clear enough to be useful and quiet enough to stay with you.</p></section>
-<section class="section reveal" id="contact"><span class="idx">08 / Contact</span><h2>Send a thoughtful note</h2><p class="section-note">For book conversations, collaboration, web design briefs, or messages that deserve a careful reply.</p><a class="email-big" href="mailto:nazir_noori@yahoo.com?subject=Hello%20Nazir">nazir_noori@yahoo.com →</a><div class="copy-row"><span class="copy-pill"><i class="fa-solid fa-at"></i> Best for books, briefs, and thoughtful notes</span><button class="copy-btn" id="copyEmail" data-email="nazir_noori@yahoo.com"><i class="fa-regular fa-copy"></i>Copy email</button></div><div class="contact-card"><article class="surface contact-mini"><span class="idx">For readers</span><h3>Book conversations</h3><p>Send reflections, questions, or notes connected to presence, poetry, discipline, and the writing.</p></article><article class="surface contact-mini"><span class="idx">For clients</span><h3>Web design briefs</h3><p>Share your business, desired page count, timeline, references, and the feeling you want the site to create.</p></article></div><div class="actions"><a class="btn primary" href="mailto:nazir_noori@yahoo.com?subject=Writing%20Inquiry"><i class="fa-solid fa-paper-plane"></i>Send Email</a><a class="btn" href="https://nazirnoor.github.io/work/"><i class="fa-solid fa-bolt"></i>Pulse Studios</a></div><footer class="footer"><div><h3>NAZIR NOORI</h3><p>Books, essays, poetry, writing, and quiet digital rooms for people who prefer depth over noise.</p></div><div class="foot-links"><div><h4>Writing</h4><a href="https://www.amazon.com/stores/Nazir-Noori/author/B0F4Q2QX3R?ref=ap_rdr&shoppingPortalEnabled=true">Amazon Author Page</a><a href="https://medium.com/@nazirnoorii">Medium Essays</a></div><div><h4>Studio</h4><a href="https://nazirnoor.github.io/work/">Pulse Studios</a><a href="https://nazirnoor.github.io/pulsearchive/">Pulse Archive</a><a href="https://my.linkedin.com/in/nazir-noori">LinkedIn</a><a href="https://www.instagram.com/restinpresence_/">Instagram</a><a href="https://nazirn.substack.com/">Substack</a></div></div><div class="base">© 2026 Nazir Noori. Built minimal, responsive, and fast. Press <strong>⌘/Ctrl + K</strong> to jump anywhere.</div></footer></section>
-</main>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "name": "Nazir Noori", "url": "https://nazirnoor.github.io/site/", "email": "nazir_noori@yahoo.com", "sameAs": ["https://medium.com/@nazirnoorii", "https://www.amazon.com/stores/Nazir-Noori/author/B0F4Q2QX3R", "https://my.linkedin.com/in/nazir-noori", "https://nazirn.substack.com/"], "jobTitle": "Author and web designer"}, {"@type": "WebSite", "name": "Nazir Noori", "url": "https://nazirnoor.github.io/site/", "description": "Books, essays, poetry, writing, Pulse Studios, and quiet digital systems by Nazir Noori."}, {"@type": "Book", "name": "The Heart of Presence", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/0cwGO0ZY"}, {"@type": "Book", "name": "114 Days with the Quran", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/02TR43mP"}, {"@type": "Book", "name": "Already Home", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/0awYXoK1"}, {"@type": "Book", "name": "The Living Flame", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/0aLI9LdT"}, {"@type": "Book", "name": "The Ground Will Catch You", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/0f81Tvup"}, {"@type": "Book", "name": "The Prophetic Default", "author": {"@type": "Person", "name": "Nazir Noori"}, "url": "https://a.co/d/08VsWvOL"}]}</script>
-<script>window.NAZIR_SITE_DATA={"books": [{"n": "01", "title": "The Heart of Presence", "cat": "presence", "url": "https://a.co/d/0cwGO0ZY", "desc": "A quiet entry point into immediacy, attention, and the art of coming back to what is already here.", "chips": ["Start Here", "Now", "Presence"]}, {"n": "02", "title": "114 Days with the Quran", "cat": "discipline quran structure", "url": "https://a.co/d/02TR43mP", "desc": "A daily companion for reflection, steadiness, and intentional engagement with sacred text.", "chips": ["Quran", "Reflection", "Practice"]}, {"n": "03", "title": "Already Home", "cat": "presence awakening return", "url": "https://a.co/d/0awYXoK1", "desc": "A gentle return to the simple recognition that nothing essential is missing from this moment.", "chips": ["Awakening", "Stillness", "Return"]}, {"n": "04", "title": "The Living Flame", "cat": "presence awareness", "url": "https://a.co/d/0aLI9LdT", "desc": "A clear study of attention, conditioning, and freedom through the lens of Krishnamurti’s work.", "chips": ["Krishnamurti", "Awareness"]}, {"n": "05", "title": "The Ground Will Catch You", "cat": "poetry surrender", "url": "https://a.co/d/0f81Tvup", "desc": "101 poems for the end of seeking — fragments of surrender, trust, silence, and return.", "chips": ["Poetry", "Surrender", "Trust"]}, {"n": "06", "title": "The Prophetic Default", "cat": "discipline renewal intention", "url": "https://a.co/d/08VsWvOL", "desc": "Twelve principles for rebuilding inner architecture, breaking autopilot, and living with intention.", "chips": ["Discipline", "Renewal", "Intention"]}], "links": {"email": "nazir_noori@yahoo.com", "medium": "https://medium.com/@nazirnoorii", "substack": "https://nazirn.substack.com/", "studio": "https://nazirnoor.github.io/work/"}};</script>
-<script>
-(()=>{const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],root=document.documentElement,body=document.body;const toast=m=>{const t=$('#toast');if(!t)return;t.textContent=m;t.classList.add('show');clearTimeout(window.toastT);window.toastT=setTimeout(()=>t.classList.remove('show'),1800)};function markSmooth(){body.classList.add('smooth-scrolling');clearTimeout(window.__smoothT);window.__smoothT=setTimeout(()=>body.classList.remove('smooth-scrolling'),650)}addEventListener('load',()=>body.classList.add('loaded'));setTimeout(()=>body.classList.add('loaded'),180);addEventListener('pointermove',e=>{root.style.setProperty('--mx',(e.clientX/innerWidth*100).toFixed(1)+'%');root.style.setProperty('--my',(e.clientY/innerHeight*100).toFixed(1)+'%')},{passive:true});$$('a[href^="http"]').forEach(a=>{try{const u=new URL(a.href);if(u.hostname!==location.hostname){a.classList.add('external');a.target=a.target||'_blank';a.rel='noopener noreferrer'}}catch(e){}});document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const target=$(a.getAttribute('href'));if(!target)return;e.preventDefault();markSmooth();target.scrollIntoView({behavior:'smooth',block:'start'});target.classList.remove('target-pulse');void target.offsetWidth;target.classList.add('target-pulse');history.replaceState(null,'',a.getAttribute('href'))});const header=$('#header'),progress=$('#progress'),topBtn=$('#top'),sections=$$('section[id]'),navLinks=$$('.links a,#sectionMap a,#bottomNav a');let ticking=false;function update(){let max=document.documentElement.scrollHeight-innerHeight,p=max?scrollY/max:0;if(progress)progress.style.transform=`scaleX(${p})`;header?.classList.toggle('scrolled',scrollY>18);topBtn?.classList.toggle('show',scrollY>700);let id='';sections.forEach(s=>{if(scrollY>=s.offsetTop-180)id=s.id});navLinks.forEach(a=>a.classList.toggle('active',a.hash==='#'+id));ticking=false}addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(update);ticking=true}},{passive:true});topBtn.onclick=()=>{markSmooth();scrollTo({top:0,behavior:'smooth'})};const theme=$('#theme');function syncTheme(){theme.innerHTML=root.dataset.theme==='dark'?'<i class="fa-regular fa-sun"></i>':'<i class="fa-regular fa-moon"></i>';document.querySelector('meta[name="theme-color"]').setAttribute('content',root.dataset.theme==='dark'?'#07090d':'#f8fafc')}const savedTheme=localStorage.getItem('theme');if(savedTheme)root.dataset.theme=savedTheme;else if(matchMedia('(prefers-color-scheme: dark)').matches)root.dataset.theme='dark';syncTheme();theme.onclick=()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';localStorage.setItem('theme',root.dataset.theme);syncTheme();toast('Theme updated')};const quiet=$('#quiet'),pop=$('#quietPopup');if(localStorage.getItem('quiet')==='true')body.classList.add('quiet');quiet.onclick=()=>{body.classList.toggle('quiet');localStorage.setItem('quiet',body.classList.contains('quiet'));$('#quietPopupTitle').textContent=body.classList.contains('quiet')?'Stillness is on':'Stillness is off';$('#quietPopupText').textContent=body.classList.contains('quiet')?'Softer motion. Less noise.':'Full motion restored.';pop.classList.add('show');clearTimeout(window.q);window.q=setTimeout(()=>pop.classList.remove('show'),2200)};function clock(){const c=$('#clock');if(c)c.textContent=new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',second:'2-digit'})}clock();setInterval(clock,1000);const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});$$('.reveal').forEach(el=>io.observe(el));const booksGrid=$('.books-grid'),more=$('#booksMoreBtn'),bookSearch=$('#bookSearch'),bookEmpty=$('#bookEmpty');more?.addEventListener('click',()=>{const open=booksGrid.classList.toggle('show-all');more.querySelector('span').innerHTML=open?'<i class="fa-solid fa-minus"></i> Show Less':'<i class="fa-solid fa-plus"></i> More Books';more.querySelector('.more-count').textContent=open?'Collapse':'3 more'});function filterBooks(){const q=(bookSearch?.value||'').toLowerCase(),active=$('.filter.active')?.dataset.filter||'all';$$('.book-card').forEach(b=>{const hit=b.dataset.title.includes(q),cat=active==='all'||b.dataset.category.includes(active)||b.dataset.title.includes(active);b.classList.toggle('hidden',!(hit&&cat))});const visible=$$('.book-card').some(b=>!b.classList.contains('hidden'));bookEmpty?.classList.toggle('show',!visible)}bookSearch?.addEventListener('input',filterBooks);$$('.filter').forEach(btn=>btn.onclick=()=>{$$('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');filterBooks()});const cmd=$('#cmd'),cmdInput=$('#cmdInput');function openCmd(){cmd.classList.add('show');cmd.setAttribute('aria-hidden','false');cmdInput.focus()}function closeCmd(){cmd.classList.remove('show');cmd.setAttribute('aria-hidden','true')}$('#cmdBtn').onclick=openCmd;cmd.addEventListener('click',e=>{if(e.target===cmd)closeCmd()});$$('.cmd-item').forEach(b=>b.onclick=()=>{closeCmd();markSmooth();$(b.dataset.go)?.scrollIntoView({behavior:'smooth',block:'start'})});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();openCmd()}if(e.key==='Escape')closeCmd()});$('#copyEmail')?.addEventListener('click',async()=>{const email=$('#copyEmail').dataset.email;try{await navigator.clipboard.writeText(email);toast('Email copied')}catch(e){toast(email)}});$$('.btn,.books-more-btn,.filter,.icon-btn,.quiet-toggle,.copy-btn').forEach(el=>el.addEventListener('click',e=>{const r=el.getBoundingClientRect(),d=Math.max(r.width,r.height),s=document.createElement('span');s.className='ripple';s.style.width=s.style.height=d+'px';s.style.left=(e.clientX-r.left-d/2)+'px';s.style.top=(e.clientY-r.top-d/2)+'px';el.appendChild(s);setTimeout(()=>s.remove(),700)}));update();})();
-</script>
-</body></html>
+
+/* Final floating nav: liquid-glass premium dock */
+@media(max-width:680px){
+  .dock-nav{
+    width:min(91vw,420px)!important;
+    bottom:calc(13px + env(safe-area-inset-bottom,0px))!important;
+    gap:2px!important;
+    padding:7px!important;
+    border-radius:32px!important;
+    border:1px solid rgba(255,255,255,.34)!important;
+    background:
+      radial-gradient(circle at 12% 0%,rgba(125,211,252,.28),transparent 34%),
+      radial-gradient(circle at 86% 100%,rgba(52,211,153,.22),transparent 36%),
+      linear-gradient(180deg,rgba(255,255,255,.48),rgba(255,255,255,.18))!important;
+    backdrop-filter:blur(44px) saturate(2.55) brightness(1.04)!important;
+    -webkit-backdrop-filter:blur(44px) saturate(2.55) brightness(1.04)!important;
+    box-shadow:
+      0 28px 88px rgba(15,23,42,.24),
+      0 8px 28px rgba(37,99,235,.10),
+      inset 0 1px 0 rgba(255,255,255,.62),
+      inset 0 -1px 0 rgba(255,255,255,.18)!important;
+  }
+  [data-theme=dark] .dock-nav{
+    border-color:rgba(255,255,255,.18)!important;
+    background:
+      radial-gradient(circle at 12% 0%,rgba(125,211,252,.18),transparent 34%),
+      radial-gradient(circle at 86% 100%,rgba(52,211,153,.14),transparent 36%),
+      linear-gradient(180deg,rgba(28,36,52,.56),rgba(5,7,10,.30))!important;
+    box-shadow:
+      0 30px 95px rgba(0,0,0,.58),
+      0 10px 34px rgba(125,211,252,.08),
+      inset 0 1px 0 rgba(255,255,255,.18),
+      inset 0 -1px 0 rgba(255,255,255,.06)!important;
+  }
+  .dock-nav:before{
+    content:""!important;
+    position:absolute!important;
+    inset:1px!important;
+    border-radius:31px!important;
+    pointer-events:none!important;
+    background:
+      linear-gradient(180deg,rgba(255,255,255,.46),transparent 30%,rgba(255,255,255,.10)),
+      linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent)!important;
+    opacity:.92!important;
+  }
+  .dock-nav:after{
+    content:"";
+    position:absolute;
+    left:13%;
+    right:13%;
+    bottom:-11px;
+    height:18px;
+    border-radius:999px;
+    background:linear-gradient(90deg,transparent,color-mix(in oklab,var(--accent),transparent 72%),color-mix(in oklab,var(--green),transparent 74%),transparent);
+    filter:blur(14px);
+    opacity:.72;
+    pointer-events:none;
+  }
+  .dock-nav a{
+    min-height:52px!important;
+    border-radius:24px!important;
+    overflow:hidden;
+    isolation:isolate;
+    color:color-mix(in oklab,var(--muted),var(--text) 8%)!important;
+    letter-spacing:-.01em;
+  }
+  .dock-nav a:before{
+    content:"";
+    position:absolute;
+    inset:4px;
+    z-index:-1;
+    border-radius:21px;
+    background:linear-gradient(180deg,rgba(255,255,255,.36),rgba(255,255,255,.10));
+    border:1px solid rgba(255,255,255,.18);
+    opacity:0;
+    transform:scale(.92);
+    transition:opacity .26s var(--ease),transform .26s var(--ease),box-shadow .26s var(--ease);
+  }
+  [data-theme=dark] .dock-nav a:before{
+    background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.025));
+    border-color:rgba(255,255,255,.10);
+  }
+  .dock-nav a:after{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:5px;
+    width:4px;
+    height:4px;
+    border-radius:999px;
+    background:linear-gradient(135deg,var(--accent),var(--green));
+    transform:translateX(-50%) scale(0);
+    opacity:0;
+    transition:.24s var(--ease);
+    box-shadow:0 0 16px color-mix(in oklab,var(--green),transparent 38%);
+  }
+  .dock-nav a i{
+    font-size:1.05rem!important;
+    margin-bottom:1px;
+    transition:transform .24s var(--ease),color .24s var(--ease),filter .24s var(--ease);
+  }
+  .dock-nav a span{
+    font-size:.64rem;
+    line-height:1;
+    transform:translateY(0);
+    transition:transform .24s var(--ease),opacity .24s var(--ease),color .24s var(--ease);
+  }
+  .dock-nav a.active:before,.dock-nav a:hover:before{
+    opacity:1;
+    transform:scale(1);
+    box-shadow:0 12px 30px rgba(15,23,42,.10),inset 0 1px 0 rgba(255,255,255,.30);
+  }
+  .dock-nav a.active:after,.dock-nav a:hover:after{
+    opacity:1;
+    transform:translateX(-50%) scale(1);
+  }
+  .dock-nav a.active i,.dock-nav a:hover i{
+    color:var(--green)!important;
+    transform:translateY(-3px) scale(1.04);
+    filter:drop-shadow(0 10px 12px color-mix(in oklab,var(--green),transparent 58%));
+  }
+  .dock-nav a.active span,.dock-nav a:hover span{
+    color:var(--text);
+    transform:translateY(-1px);
+  }
+  body.dock-visible .dock-nav{
+    animation:dockArrive .48s var(--ease) both;
+  }
+}
+@keyframes dockArrive{
+  0%{opacity:0;transform:translateX(-50%) translateY(20px) scale(.94);filter:blur(3px)}
+  100%{opacity:1;transform:translateX(-50%) translateY(0) scale(1);filter:blur(0)}
+}
+
+
+/* Final dock redesign: modern glass, no active button backgrounds */
+@media(max-width:680px){
+  .dock-nav{
+    width:min(90vw,410px)!important;
+    padding:8px 9px!important;
+    gap:0!important;
+    border-radius:30px!important;
+    border:1px solid rgba(255,255,255,.30)!important;
+    background:
+      linear-gradient(180deg,rgba(255,255,255,.46),rgba(255,255,255,.16)),
+      radial-gradient(circle at 18% 0%,rgba(125,211,252,.20),transparent 36%),
+      radial-gradient(circle at 82% 100%,rgba(52,211,153,.18),transparent 38%)!important;
+    backdrop-filter:blur(46px) saturate(2.35)!important;
+    -webkit-backdrop-filter:blur(46px) saturate(2.35)!important;
+    box-shadow:
+      0 24px 78px rgba(15,23,42,.22),
+      0 10px 30px rgba(16,185,129,.08),
+      inset 0 1px 0 rgba(255,255,255,.58),
+      inset 0 -1px 0 rgba(255,255,255,.12)!important;
+  }
+  [data-theme=dark] .dock-nav{
+    border-color:rgba(255,255,255,.15)!important;
+    background:
+      linear-gradient(180deg,rgba(25,31,45,.54),rgba(6,8,12,.26)),
+      radial-gradient(circle at 18% 0%,rgba(125,211,252,.14),transparent 36%),
+      radial-gradient(circle at 82% 100%,rgba(52,211,153,.12),transparent 38%)!important;
+    box-shadow:
+      0 28px 86px rgba(0,0,0,.58),
+      0 10px 30px rgba(125,211,252,.06),
+      inset 0 1px 0 rgba(255,255,255,.16),
+      inset 0 -1px 0 rgba(255,255,255,.04)!important;
+  }
+  .dock-nav:before{
+    content:""!important;
+    position:absolute!important;
+    inset:1px!important;
+    border-radius:29px!important;
+    pointer-events:none!important;
+    background:
+      linear-gradient(180deg,rgba(255,255,255,.38),transparent 34%,rgba(255,255,255,.07)),
+      linear-gradient(90deg,transparent,rgba(255,255,255,.12),transparent)!important;
+    opacity:.78!important;
+  }
+  .dock-nav:after{
+    content:""!important;
+    position:absolute!important;
+    left:18%!important;
+    right:18%!important;
+    bottom:-10px!important;
+    height:16px!important;
+    border-radius:999px!important;
+    background:linear-gradient(90deg,transparent,color-mix(in oklab,var(--accent),transparent 78%),color-mix(in oklab,var(--green),transparent 78%),transparent)!important;
+    filter:blur(14px)!important;
+    opacity:.58!important;
+    pointer-events:none!important;
+  }
+  .dock-nav a{
+    min-height:50px!important;
+    border-radius:0!important;
+    background:transparent!important;
+    box-shadow:none!important;
+    color:color-mix(in oklab,var(--muted),var(--text) 8%)!important;
+    overflow:visible!important;
+  }
+  .dock-nav a:before{
+    display:none!important;
+  }
+  .dock-nav a:after{
+    content:""!important;
+    position:absolute!important;
+    left:50%!important;
+    bottom:3px!important;
+    width:18px!important;
+    height:3px!important;
+    border-radius:999px!important;
+    background:linear-gradient(90deg,var(--accent),var(--green))!important;
+    opacity:0!important;
+    transform:translateX(-50%) scaleX(.35)!important;
+    transform-origin:center!important;
+    transition:opacity .24s var(--ease),transform .24s var(--ease),box-shadow .24s var(--ease)!important;
+    box-shadow:0 0 16px color-mix(in oklab,var(--green),transparent 55%)!important;
+  }
+  .dock-nav a i{
+    font-size:1.08rem!important;
+    color:currentColor!important;
+    filter:none!important;
+    transition:transform .24s var(--ease),color .24s var(--ease),filter .24s var(--ease)!important;
+  }
+  .dock-nav a span{
+    font-size:.64rem!important;
+    opacity:.78!important;
+    transition:opacity .24s var(--ease),color .24s var(--ease),transform .24s var(--ease)!important;
+  }
+  .dock-nav a.active,
+  .dock-nav a:hover{
+    background:transparent!important;
+    color:var(--text)!important;
+  }
+  .dock-nav a.active:after,
+  .dock-nav a:hover:after{
+    opacity:1!important;
+    transform:translateX(-50%) scaleX(1)!important;
+  }
+  .dock-nav a.active i,
+  .dock-nav a:hover i{
+    color:var(--green)!important;
+    transform:translateY(-3px) scale(1.08)!important;
+    filter:drop-shadow(0 8px 12px color-mix(in oklab,var(--green),transparent 62%))!important;
+  }
+  .dock-nav a.active span,
+  .dock-nav a:hover span{
+    opacity:1!important;
+    transform:translateY(-1px)!important;
+  }
+  body.dock-visible .dock-nav{
+    animation:dockGlassIn .44s var(--ease) both!important;
+  }
+}
+@keyframes dockGlassIn{
+  from{opacity:0;transform:translateX(-50%) translateY(18px) scale(.96);filter:blur(3px)}
+  to{opacity:1;transform:translateX(-50%) translateY(0) scale(1);filter:blur(0)}
+}
+
+
+/* Final footer atmosphere: subtle moving quiet gradient */
+.footer{
+  position:relative;
+  overflow:hidden;
+  border-radius:28px 28px 0 0;
+  padding:44px 24px 0;
+  margin-left:-24px;
+  margin-right:-24px;
+  background:
+    radial-gradient(circle at 12% 18%,color-mix(in oklab,var(--accent),transparent 91%),transparent 34%),
+    radial-gradient(circle at 86% 28%,color-mix(in oklab,var(--green),transparent 92%),transparent 32%),
+    linear-gradient(180deg,color-mix(in oklab,var(--card),transparent 24%),transparent 74%);
+}
+.footer:before{
+  content:"";
+  position:absolute;
+  inset:-45% -20%;
+  z-index:0;
+  pointer-events:none;
+  opacity:.42;
+  background:
+    radial-gradient(circle at 20% 45%,color-mix(in oklab,var(--accent),transparent 82%),transparent 18%),
+    radial-gradient(circle at 76% 55%,color-mix(in oklab,var(--green),transparent 84%),transparent 20%),
+    radial-gradient(circle at 46% 20%,color-mix(in oklab,var(--gold),transparent 88%),transparent 16%);
+  filter:blur(24px);
+  animation:footerDrift 18s var(--ease) infinite alternate;
+}
+.footer:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  opacity:.18;
+  background-image:linear-gradient(90deg,transparent,rgba(255,255,255,.18),transparent);
+  transform:translateX(-65%);
+  animation:footerSheen 12s ease-in-out infinite;
+}
+.footer>*{position:relative;z-index:1}
+[data-theme=dark] .footer{
+  background:
+    radial-gradient(circle at 12% 18%,rgba(125,211,252,.10),transparent 34%),
+    radial-gradient(circle at 86% 28%,rgba(52,211,153,.09),transparent 32%),
+    linear-gradient(180deg,rgba(255,255,255,.035),transparent 74%);
+}
+[data-theme=dark] .footer:after{opacity:.08}
+@keyframes footerDrift{
+  0%{transform:translate3d(-2%,1%,0) scale(1)}
+  50%{transform:translate3d(2%,-1%,0) scale(1.04)}
+  100%{transform:translate3d(4%,1.5%,0) scale(1.02)}
+}
+@keyframes footerSheen{
+  0%,42%{transform:translateX(-75%);opacity:0}
+  55%{opacity:.18}
+  78%,100%{transform:translateX(75%);opacity:0}
+}
+@media(max-width:680px){
+  .footer{margin-left:0;margin-right:0;padding:34px 16px 0;border-radius:24px 24px 0 0}
+}
+
+
+/* Final footer rule: animated footer atmosphere only on mobile */
+@media(min-width:681px){
+  .footer{
+    overflow:visible!important;
+    border-radius:0!important;
+    padding:40px 0 0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    background:transparent!important;
+  }
+  .footer:before,.footer:after{
+    display:none!important;
+    animation:none!important;
+  }
+}
+@media(max-width:680px){
+  .footer{
+    position:relative!important;
+    overflow:hidden!important;
+    border-radius:24px 24px 0 0!important;
+    padding:34px 16px 0!important;
+    margin-left:0!important;
+    margin-right:0!important;
+    background:
+      radial-gradient(circle at 12% 18%,color-mix(in oklab,var(--accent),transparent 91%),transparent 34%),
+      radial-gradient(circle at 86% 28%,color-mix(in oklab,var(--green),transparent 92%),transparent 32%),
+      linear-gradient(180deg,color-mix(in oklab,var(--card),transparent 24%),transparent 74%)!important;
+  }
+  [data-theme=dark] .footer{
+    background:
+      radial-gradient(circle at 12% 18%,rgba(125,211,252,.10),transparent 34%),
+      radial-gradient(circle at 86% 28%,rgba(52,211,153,.09),transparent 32%),
+      linear-gradient(180deg,rgba(255,255,255,.035),transparent 74%)!important;
+  }
+  .footer:before{
+    display:block!important;
+    animation:footerDrift 18s var(--ease) infinite alternate!important;
+  }
+  .footer:after{
+    display:block!important;
+    animation:footerSheen 12s ease-in-out infinite!important;
+  }
+}
+
+</style></head><body><div class="progress-wrap"><div class="progress" id="progress"></div></div><header id="header"><nav class="wrap topnav" aria-label="Primary navigation"><a class="brand" href="#hero"><span class="logo">NAZIR NOORI<span class="logo-sub-lines"><span>Author</span><span>Pulse Studios</span></span></span></a><ul class="links"><li><a href="#featured"><i class="fa-solid fa-book-open"></i>Books</a></li><li><a href="#studio"><i class="fa-solid fa-bolt"></i>Studio</a></li><li><a href="#themes"><i class="fa-solid fa-layer-group"></i>Themes</a></li><li><a href="#essays"><i class="fa-solid fa-pen-nib"></i>Essays</a></li><li><a href="#contact"><i class="fa-solid fa-paper-plane"></i>Contact</a></li></ul><div class="nav-actions"><button class="quiet-toggle" id="quiet"><span class="quiet-dot"></span><span class="quiet-label">Stillness</span></button><button class="icon-btn" id="cmdBtn"><i class="fa-solid fa-magnifying-glass"></i></button><button class="icon-btn" id="theme"><i class="fa-regular fa-moon"></i></button></div></nav></header><nav class="dock-nav" id="dockNav"><a href="#featured"><i class="fa-solid fa-book-open"></i><span>Books</span></a><a href="#studio"><i class="fa-solid fa-bolt"></i><span>Studio</span></a><a href="#essays"><i class="fa-solid fa-pen-nib"></i><span>Essays</span></a><a href="#contact"><i class="fa-solid fa-paper-plane"></i><span>Contact</span></a></nav><button class="top" id="top"><i class="fa-solid fa-arrow-up"></i></button><div class="toast" id="toast"></div><div class="quiet-popup" id="quietPopup"><strong id="quietPopupTitle">Stillness is on</strong><span id="quietPopupText">Softer motion. Less noise.</span></div><div class="cmd" id="cmd"><div class="cmd-box"><input id="cmdInput" placeholder="Jump to books, studio, essays, contact…"><div class="cmd-list"><button class="cmd-item" data-go="#featured">📚 Books</button><button class="cmd-item" data-go="#studio">⚡ Pulse Studios</button><button class="cmd-item" data-go="#essays">✍️ Essays</button><button class="cmd-item" data-go="#contact">✉️ Contact</button></div></div></div><main class="wrap" id="content"><section class="hero" id="hero"><div><div class="kicker"><span class="live-dot"></span>Available · KL · <span id="clock">--:--:--</span></div><h1>Words, interfaces, and quiet systems.</h1><p class="subtitle">Books, essays, poems, and quiet interfaces gathered into one intentional space.</p><p class="bio">I write through the lens of <a class="inline" href="#themes">inner clarity</a>, <a class="inline" href="#themes">creative discipline</a>, <a class="inline" href="#themes">direct observation</a>, and <a class="inline" href="#themes">intentional living</a>. Alongside the writing, I design calm responsive websites through <a class="inline" href="https://nazirnoor.github.io/work/">Pulse Studios</a>.</p><div class="proof-strip"><span>Books</span><span>Essays</span><span>Poetry</span><span>Writing</span><span>Pulse Studios</span></div><div class="now-card"><span class="now-orb"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>Building a body of work around presence, design, and the art of returning.</span></div><div class="actions"><a class="btn primary" href="#featured"><i class="fa-solid fa-book-open"></i>Explore Books</a><a class="btn" href="https://nazirnoor.github.io/work/"><i class="fa-solid fa-bolt"></i>Visit Pulse Studios</a><a class="btn" href="https://medium.com/@nazirnoorii"><i class="fa-solid fa-pen-nib"></i>Read Essays</a><a class="btn" href="#contact"><i class="fa-solid fa-paper-plane"></i>Write to Me</a></div><div class="social"><a href="https://www.amazon.com/stores/Nazir-Noori/author/B0F4Q2QX3R?ref=ap_rdr&shoppingPortalEnabled=true"><i class="fa-brands fa-amazon"></i>Amazon</a><a href="https://medium.com/@nazirnoorii"><i class="fa-brands fa-medium"></i>Medium</a></div><div class="journey collapsed" id="journeyGrid"><a class="journey-card" href="#featured"><i class="fa-solid fa-book-open"></i><strong>I want a book</strong><span>Find the right doorway into presence, poetry, or discipline.</span></a><a class="journey-card" href="#studio"><i class="fa-solid fa-bolt"></i><strong>I need a website</strong><span>Explore calm, responsive interfaces through Pulse Studios.</span></a><a class="journey-card journey-extra" href="#essays"><i class="fa-solid fa-pen-nib"></i><strong>I want essays</strong><span>Read reflections on attention, practice, and self-knowledge.</span></a><a class="journey-card journey-extra" href="#contact"><i class="fa-solid fa-paper-plane"></i><strong>I want to connect</strong><span>Send a thoughtful note, brief, or collaboration idea.</span></a></div><div class="journey-more-wrap"><button class="journey-more" id="journeyMore"><i class="fa-solid fa-plus"></i> More paths <span class="more-count">2</span></button></div></div></section><section class="section reveal" id="featured"><span class="idx">01 / Published Books</span><h2>A shelf for return, structure, and renewal</h2><p class="section-note">Each book is a different doorway: presence for returning, structure for discipline, poetry for softness, and reflection for the work of becoming honest.</p><div class="reading-path">Lost? Start with <strong>The Heart of Presence</strong>. Want structure? Start with <strong>114 Days with the Quran</strong>. Want softness? Start with <strong>The Ground Will Catch You</strong>.</div><div class="spotlight"><div class="book-cover"><span></span><strong>The Heart<br>of Presence</strong><em>Start here · Nazir Noori</em></div><article class="surface spotlight-copy"><span class="idx">Featured entry point</span><h3>The cleanest doorway into the work.</h3><p>If someone only reads one book first, this is the recommended beginning: a quiet return to attention, immediacy, and what is already here.</p><ul class="spotlight-list"><li><i class="fa-solid fa-check"></i><span>Best for first-time readers.</span></li><li><i class="fa-solid fa-check"></i><span>Aligned with the site’s central theme of presence.</span></li><li><i class="fa-solid fa-check"></i><span>Direct path into the rest of the writing ecosystem.</span></li></ul><a class="btn primary" href="https://a.co/d/0cwGO0ZY"><i class="fa-brands fa-amazon"></i>View Featured Book</a></article></div><div class="book-controls"><input class="search" id="bookSearch" placeholder="Search books…"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="presence">Presence</button><button class="filter" data-filter="poetry">Poetry</button><button class="filter" data-filter="discipline">Discipline</button></div><div class="grid books-grid"><a class="book-card " data-title="the heart of presence" data-category="presence" href="https://a.co/d/0cwGO0ZY" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">01</div><div class="book-cover mini"><span></span><strong>The<br>Heart of Presence</strong><em>Start Here</em></div><h3>The Heart of Presence</h3><p>A quiet entry point into immediacy, attention, and the art of coming back to what is already here.</p><div class="chips"><span>Start Here</span><span>Now</span><span>Presence</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a><a class="book-card " data-title="114 days with the quran" data-category="discipline quran structure" href="https://a.co/d/02TR43mP" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">02</div><div class="book-cover mini"><span></span><strong>114<br>Days with the Quran</strong><em>Quran</em></div><h3>114 Days with the Quran</h3><p>A daily companion for reflection, steadiness, and intentional engagement with sacred text.</p><div class="chips"><span>Quran</span><span>Reflection</span><span>Practice</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a><a class="book-card " data-title="already home" data-category="presence awakening return" href="https://a.co/d/0awYXoK1" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">03</div><div class="book-cover mini"><span></span><strong>Already<br>Home</strong><em>Awakening</em></div><h3>Already Home</h3><p>A gentle return to the simple recognition that nothing essential is missing from this moment.</p><div class="chips"><span>Awakening</span><span>Stillness</span><span>Return</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a><a class="book-card book-extra" data-title="the living flame" data-category="presence awareness" href="https://a.co/d/0aLI9LdT" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">04</div><div class="book-cover mini"><span></span><strong>The<br>Living Flame</strong><em>Krishnamurti</em></div><h3>The Living Flame</h3><p>A clear study of attention, conditioning, and freedom through the lens of Krishnamurti’s work.</p><div class="chips"><span>Krishnamurti</span><span>Awareness</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a><a class="book-card book-extra" data-title="the ground will catch you" data-category="poetry surrender" href="https://a.co/d/0f81Tvup" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">05</div><div class="book-cover mini"><span></span><strong>The<br>Ground Will Catch You</strong><em>Poetry</em></div><h3>The Ground Will Catch You</h3><p>101 poems for the end of seeking — fragments of surrender, trust, silence, and return.</p><div class="chips"><span>Poetry</span><span>Surrender</span><span>Trust</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a><a class="book-card book-extra" data-title="the prophetic default" data-category="discipline renewal intention" href="https://a.co/d/08VsWvOL" target="_blank" rel="noopener noreferrer"><article class="surface book"><div class="book-index">06</div><div class="book-cover mini"><span></span><strong>The<br>Prophetic Default</strong><em>Discipline</em></div><h3>The Prophetic Default</h3><p>Twelve principles for rebuilding inner architecture, breaking autopilot, and living with intention.</p><div class="chips"><span>Discipline</span><span>Renewal</span><span>Intention</span></div><div class="book-buy"><span><i class="fa-brands fa-amazon"></i> Amazon</span><b><i class="fa-solid fa-arrow-up-right"></i></b></div></article></a></div><div class="empty-state" id="bookEmpty"><strong>No matching book yet.</strong><br>Try presence, poetry, Quran, discipline, awareness, or return.</div><div class="books-more-wrap"><button class="books-more-btn" id="booksMoreBtn"><span><i class="fa-solid fa-plus"></i> More Books</span><span class="more-count">3 more</span></button></div></section><section class="section reveal" id="reader-notes"><span class="idx">02 / Reader Notes</span><h2>Quiet proof, not loud persuasion</h2><p class="section-note">A few short signals to help new visitors understand the emotional texture of the work.</p><div class="quote-grid"><article class="surface quote"><p>“Clear, gentle, and grounding — the kind of writing that makes you slow down without forcing you.”</p><cite>Early reader note</cite></article><article class="surface quote"><p>“A calm doorway into presence, discipline, and inner sincerity.”</p><cite>Reader reflection</cite></article><article class="surface quote"><p>“The design and writing feel like the same person: minimal, intentional, and quietly confident.”</p><cite>Studio impression</cite></article></div></section><section class="section reveal" id="studio"><span class="idx">03 / Pulse Studios</span><h2>Quiet websites for thoughtful brands</h2><p class="section-note">Pulse Studios translates the same restraint found in the writing into digital presence: clean pages, refined typography, purposeful interactions, and interfaces that feel calm without feeling empty.</p><div class="cards-3"><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-bolt"></i></div><span class="idx">Studio practice</span><h3>Clarity into interface.</h3><p>A good website does not shout. It creates trust, movement, and a room where the visitor can breathe.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-display"></i></div><span class="idx">Service</span><h3>Minimal websites</h3><p>Responsive pages for businesses, creators, and personal brands that need polish, speed, and clarity.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div><span class="idx">System</span><h3>Interface systems</h3><p>Reusable layout, spacing, typography, and interaction rules designed to keep a site coherent as it grows.</p></article></div></section><section class="section reveal" id="themes"><span class="idx">04 / Core Themes</span><h2>The questions beneath the work</h2><p class="section-note">The writing keeps circling a few living questions: what is real, what is noise, what is worth building, and how can a life become more sincere without becoming heavy?</p><div class="cards-3"><article class="surface feature"><div class="feature-icon"><i class="fa-regular fa-clock"></i></div><h3>Presence</h3><p>The practice of returning to life before it becomes a performance, a story, or a problem to solve.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-solid fa-compass"></i></div><h3>Meaning</h3><p>Finding direction through attention, responsibility, and the simple courage to live deliberately.</p></article><article class="surface feature"><div class="feature-icon"><i class="fa-regular fa-eye"></i></div><h3>Self-Knowledge</h3><p>Watching thought, identity, fear, and desire without turning them into another mask.</p></article></div></section><section class="section reveal" id="now"><span class="idx">05 / Now</span><h2>Currently building</h2><p class="section-note">A lightweight living note for what is active: writing, design, and the quiet practice of building a coherent body of work.</p><div class="now-list"><article class="surface now-item"><time>Writing</time><h3>New essays and reflections</h3><p>Short notes on attention, creative discipline, self-knowledge, and intentional living.</p></article><article class="surface now-item"><time>Studio</time><h3>Premium minimal websites</h3><p>Refining the Pulse Studios design language for thoughtful businesses and personal brands.</p></article><article class="surface now-item"><time>Reading path</time><h3>Cleaner book discovery</h3><p>Helping visitors choose the right starting point from the full shelf.</p></article></div></section><section class="section reveal" id="essays"><span class="idx">06 / Essays</span><h2>Notes from the middle of the path</h2><p class="section-note">Short-form reflections live on Medium: essays on attention, discipline, creative practice, self-knowledge, and building a life with fewer automatic choices.</p><article class="surface medium-card"><div class="medium-card-copy"><span class="idx">Medium essays</span><h3>Longer reflections for slower attention.</h3><p>Essays on presence, discipline, creative practice, self-knowledge, and building a life with fewer automatic choices.</p><div class="medium-meta"><span><i class="fa-solid fa-feather-pointed"></i> Essays</span><span><i class="fa-regular fa-clock"></i> Slow reading</span><span><i class="fa-solid fa-seedling"></i> Inner clarity</span></div></div><div class="medium-panel"><div class="medium-mark"><i class="fa-brands fa-medium"></i></div><div><strong>Read the notes<br>on Medium.</strong><small>Writing from the middle of the path</small></div><a class="medium-cta" href="https://medium.com/@nazirnoorii" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-medium"></i>Open Medium<i class="fa-solid fa-arrow-up-right"></i></a></div></article><article class="surface newsletter"><div><span class="idx">Quiet notes</span><h3>Receive reflections on presence, design, and intentional living.</h3><p>Connect through Substack for slower, more thoughtful updates outside the noise of feeds.</p></div><a class="btn primary" href="https://nazirn.substack.com/"><i class="fa-solid fa-envelope-open-text"></i>Open Substack</a></article></section><section class="section reveal" id="identity"><span class="idx">07 / Writing Identity</span><h2>How the work wants to feel</h2><p class="section-note">The tone is simple by design: not loud, not ornamental, not trying to impress — just clear enough to be useful and quiet enough to stay with you.</p></section><section class="section reveal" id="contact"><span class="idx">08 / Contact</span><h2>Send a thoughtful note</h2><p class="section-note">For book conversations, collaboration, web design briefs, or messages that deserve a careful reply.</p><a class="email-big" href="mailto:nazir_noori@yahoo.com?subject=Hello%20Nazir">nazir_noori@yahoo.com →</a><div class="copy-row"><span class="copy-pill"><i class="fa-solid fa-at"></i> Best for books, briefs, and thoughtful notes</span><button class="copy-btn" id="copyEmail" data-email="nazir_noori@yahoo.com"><i class="fa-regular fa-copy"></i>Copy email</button></div><div class="contact-card"><article class="surface contact-mini"><span class="idx">For readers</span><h3>Book conversations</h3><p>Send reflections, questions, or notes connected to presence, poetry, discipline, and the writing.</p></article><article class="surface contact-mini"><span class="idx">For clients</span><h3>Web design briefs</h3><p>Share your business, desired page count, timeline, references, and the feeling you want the site to create.</p></article></div><div class="actions"><a class="btn primary" href="mailto:nazir_noori@yahoo.com?subject=Writing%20Inquiry"><i class="fa-solid fa-paper-plane"></i>Send Email</a><a class="btn" href="https://nazirnoor.github.io/work/"><i class="fa-solid fa-bolt"></i>Pulse Studios</a></div><footer class="footer"><div><h3>NAZIR NOORI</h3><p>Books, essays, poetry, writing, and quiet digital rooms for people who prefer depth over noise.</p></div><div class="foot-links"><div><h4>Writing</h4><a href="https://www.amazon.com/stores/Nazir-Noori/author/B0F4Q2QX3R?ref=ap_rdr&shoppingPortalEnabled=true">Amazon Author Page</a><a href="https://medium.com/@nazirnoorii">Medium Essays</a></div><div><h4>Studio</h4><a href="https://nazirnoor.github.io/work/">Pulse Studios</a><a href="https://nazirnoor.github.io/pulsearchive/">Pulse Archive</a><a href="https://my.linkedin.com/in/nazir-noori">LinkedIn</a><a href="https://www.instagram.com/restinpresence_/">Instagram</a><a href="https://nazirn.substack.com/">Substack</a></div></div><div class="base">© 2026 Nazir Noori. Built minimal, responsive, and fast.</div></footer></section></main><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "name": "Nazir Noori", "url": "https://nazirnoor.github.io/site/"}]}</script><script>(()=>{const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],root=document.documentElement,body=document.body;const toast=m=>{const t=$('#toast');if(!t)return;t.textContent=m;t.classList.add('show');clearTimeout(window.toastT);window.toastT=setTimeout(()=>t.classList.remove('show'),1800)};function markSmooth(){body.classList.add('smooth-scrolling');clearTimeout(window.__smoothT);window.__smoothT=setTimeout(()=>body.classList.remove('smooth-scrolling'),650)}addEventListener('load',()=>body.classList.add('loaded'));setTimeout(()=>body.classList.add('loaded'),180);addEventListener('pointermove',e=>{root.style.setProperty('--mx',(e.clientX/innerWidth*100).toFixed(1)+'%');root.style.setProperty('--my',(e.clientY/innerHeight*100).toFixed(1)+'%')},{passive:true});$$('a[href^="http"]').forEach(a=>{try{const u=new URL(a.href);if(u.hostname!==location.hostname){a.classList.add('external');a.target=a.target||'_blank';a.rel='noopener noreferrer'}}catch(e){}});document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const target=$(a.getAttribute('href'));if(!target)return;e.preventDefault();markSmooth();target.scrollIntoView({behavior:'smooth',block:'start'});history.replaceState(null,'',a.getAttribute('href'))});const header=$('#header'),progress=$('#progress'),topBtn=$('#top'),sections=$$('section[id]'),navLinks=$$('.links a,#dockNav a');let ticking=false;function update(){let max=document.documentElement.scrollHeight-innerHeight,p=max?scrollY/max:0;if(progress)progress.style.transform=`scaleX(${p})`;header?.classList.toggle('scrolled',scrollY>18);topBtn?.classList.toggle('show',scrollY>700);body.classList.toggle('dock-visible',innerWidth<=680 && scrollY>24);let id='';sections.forEach(s=>{if(scrollY>=s.offsetTop-180)id=s.id});navLinks.forEach(a=>a.classList.toggle('active',a.hash==='#'+id));ticking=false}addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(update);ticking=true}},{passive:true});addEventListener('resize',update,{passive:true});topBtn.onclick=()=>{markSmooth();scrollTo({top:0,behavior:'smooth'})};const theme=$('#theme');function syncTheme(){theme.innerHTML=root.dataset.theme==='dark'?'<i class="fa-regular fa-sun"></i>':'<i class="fa-regular fa-moon"></i>';document.querySelector('meta[name="theme-color"]').setAttribute('content',root.dataset.theme==='dark'?'#07090d':'#f8fafc')}const savedTheme=localStorage.getItem('theme');if(savedTheme)root.dataset.theme=savedTheme;else if(matchMedia('(prefers-color-scheme: dark)').matches)root.dataset.theme='dark';syncTheme();theme.onclick=()=>{root.dataset.theme=root.dataset.theme==='dark'?'light':'dark';localStorage.setItem('theme',root.dataset.theme);syncTheme();toast('Theme updated')};const quiet=$('#quiet'),pop=$('#quietPopup');if(localStorage.getItem('quiet')==='true')body.classList.add('quiet');quiet.onclick=()=>{body.classList.toggle('quiet');localStorage.setItem('quiet',body.classList.contains('quiet'));$('#quietPopupTitle').textContent=body.classList.contains('quiet')?'Stillness is on':'Stillness is off';$('#quietPopupText').textContent=body.classList.contains('quiet')?'Softer motion. Less noise.':'Full motion restored.';pop.classList.add('show');clearTimeout(window.q);window.q=setTimeout(()=>pop.classList.remove('show'),2200)};function clock(){const c=$('#clock');if(c)c.textContent=new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit',second:'2-digit'})}clock();setInterval(clock,1000);const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.12});$$('.reveal').forEach(el=>io.observe(el));const booksGrid=$('.books-grid'),more=$('#booksMoreBtn'),bookSearch=$('#bookSearch'),bookEmpty=$('#bookEmpty');more?.addEventListener('click',()=>{const open=booksGrid.classList.toggle('show-all');more.querySelector('span').innerHTML=open?'<i class="fa-solid fa-minus"></i> Show Less':'<i class="fa-solid fa-plus"></i> More Books';more.querySelector('.more-count').textContent=open?'Collapse':'3 more'});function filterBooks(){const q=(bookSearch?.value||'').toLowerCase(),active=$('.filter.active')?.dataset.filter||'all';$$('.book-card').forEach(b=>{const hit=b.dataset.title.includes(q),cat=active==='all'||b.dataset.category.includes(active)||b.dataset.title.includes(active);b.classList.toggle('hidden',!(hit&&cat))});bookEmpty?.classList.toggle('show',!$$('.book-card').some(b=>!b.classList.contains('hidden')))}bookSearch?.addEventListener('input',filterBooks);$$('.filter').forEach(btn=>btn.onclick=()=>{$$('.filter').forEach(b=>b.classList.remove('active'));btn.classList.add('active');filterBooks()});$('#journeyMore')?.addEventListener('click',()=>{const j=$('#journeyGrid'),open=j.classList.toggle('expanded');j.classList.toggle('collapsed',!open);$('#journeyMore').innerHTML=open?'<i class="fa-solid fa-minus"></i> Show less <span class="more-count">2</span>':'<i class="fa-solid fa-plus"></i> More paths <span class="more-count">2</span>'});const cmd=$('#cmd'),cmdInput=$('#cmdInput');function openCmd(){cmd.classList.add('show');cmdInput.focus()}function closeCmd(){cmd.classList.remove('show')}$('#cmdBtn').onclick=openCmd;cmd.addEventListener('click',e=>{if(e.target===cmd)closeCmd()});$$('.cmd-item').forEach(b=>b.onclick=()=>{closeCmd();markSmooth();$(b.dataset.go)?.scrollIntoView({behavior:'smooth',block:'start'})});document.addEventListener('keydown',e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();openCmd()}if(e.key==='Escape')closeCmd()});$('#copyEmail')?.addEventListener('click',async()=>{const email=$('#copyEmail').dataset.email;try{await navigator.clipboard.writeText(email);toast('Email copied')}catch(e){toast(email)}});$$('.btn,.books-more-btn,.filter,.icon-btn,.quiet-toggle,.copy-btn,.journey-more').forEach(el=>el.addEventListener('click',e=>{const r=el.getBoundingClientRect(),d=Math.max(r.width,r.height),s=document.createElement('span');s.className='ripple';s.style.width=s.style.height=d+'px';s.style.left=(e.clientX-r.left-d/2)+'px';s.style.top=(e.clientY-r.top-d/2)+'px';el.appendChild(s);setTimeout(()=>s.remove(),700)}));update();})();</script></body></html>
